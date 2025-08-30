@@ -1,0 +1,34 @@
+=begin pod
+
+The main tools documentation is available from L<raku.org|https://raku.org/>.  
+
+There are some other tools available, which are listed here.  
+
+=head1 Documentation Tools
+
+=item L<Podlite|https://podlite.org/>: open-source desktop Raku Pod editor and 
+viewer for Windows, Linux, and Mac.
+
+=item L<pod6.in|https://pod6.in/>: online Raku Pod (aka pod6) editor.
+
+=head1 Other Tools
+
+=item L<CudaText|https://cudatext.github.io/>: Raku lexer is present in Addon 
+Manager
+
+=item L<Kate|https://kate-editor.org/>: A cross-platform text editor part of the 
+KDE project
+
+=item L<Notepad++|https://notepad-plus-plus.org/>: A free and open-source source 
+code editor for use with Microsoft Windows.
+
+=head1 Deprecated tools
+
+=item L<CommaIDE|https://commaide.com/>: designed specifically for Raku. 
+Community edition available for free, additional features and more regular 
+updates through paid Supporter Program.   Unfortunately no longer supported.  
+
+=item L<Atom|https://atom.io> had various pieces of Raku support, but has been 
+sunsetted in 2022.  
+
+=end pod

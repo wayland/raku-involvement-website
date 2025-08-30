@@ -1,0 +1,70 @@
+=begin pod
+
+=TITLE Raku Compilers
+
+Raku is a language specification and, just like C or C++, it
+encourages multiple compilers for the language.
+
+=head1 Current Compilers
+
+=head2 L<Rakudo™|https://rakudo.org/> and NQP
+
+Rakudo runs on L<MoarVM|http://moarvm.org/> and the Java Virtual Machine (JVM).
+It's developed on L<GitHub|http://github.com/rakudo/rakudo>.
+
+NQP is B<not> a Raku compiler. NQP is a small subset of Raku used as a 
+foundational tool to help write compilers (including 
+L<Rakudo|https://github.com/rakudo/rakudo/blob/master/src/main.nqp>)
+and libraries. Development happens on L<GitHub|https://github.com/raku/nqp/>.
+
+=head1 Historical Compilers
+
+=head2 L<Niecza|http://github.com/sorear/niecza>
+
+Niecza is a compiler targeting the Common Language Runtime (.NET and Mono).  Its 
+goal is to explore the static aspects of Raku and the possibilities for 
+compile-time optimization.
+
+=head2 STD and viv
+
+=head3 L<STD|/compilers/std-viv>
+
+STD is Larry Wall's reference implementation of the Raku grammar, parser 
+generator, and some of the semantic verifier. STD is an abbreviation of 
+"Standard". It is written in Raku, transliterated into Perl 5 by viv.  It is 
+also used by various phases of several other compilers (mildew, perlito, elf).
+
+The Raku standard grammar is written in Raku, and specifies how a Raku program 
+is parsed.
+
+The source code can be found on 
+L<github in the perl6/std project|http://github.com/perl6/std/>
+in the file L<STD.pm6|https://github.com/perl6/std/blob/master/STD.pm6>.
+
+Both STD.pm and viv are included in the 
+L<STD|https://metacpan.org/release/STD> package on CPAN.
+
+=head3 L<viv|/compilers/std-viv>
+
+viv ("vi" to "v", 6 to 5) is a compiler that uses STD as its front-end. STD 
+itself uses viv to build. It is developed along with STD.
+
+B<viv> should be read as B<VI ➔ V>, where V and I are Roman
+numerals. So it's a translator from Perl 6 to Perl 5, expressly designed
+to run STD.pm6 - it compiles to Perl 5 code only features that are needed
+to run STD.pm6. However it can be used by other compilers as a base to
+produce code for other backends.
+
+=head2 L<Perlito|http://fglock.github.io/Perlito/>
+
+Perlito, also known as MiniPerl6, is a subset of Raku, designed as a light 
+bootstrapping language.  You can 
+L<try it online|http://fglock.github.io/Perlito/perlito/perlito6.html>.  It is
+developed L<here|http://github.com/fglock/Perlito/>.
+
+=head2 L<Pugs|https://en.wikipedia.org/wiki/Pugs_(programming)>
+
+Pugs is written in Haskell.  Maintenance releases for successive versions of ghc 
+are L<published|http://hackage.haskell.org/package/Pugs> to Hackage.
+
+=end pod

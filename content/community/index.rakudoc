@@ -1,0 +1,60 @@
+=begin pod
+
+=TITLE Community
+
+The main Community page is at L<https://raku.org/community/>.  However, there 
+are some additional parts of the community you may like to know about.  
+
+=head1 Mailing Lists
+
+For the folks who can't use L<#raku|https://raku.org/community/irc> or discord, 
+there are several (low traffic) mailing lists 
+I<(which use the legacy name of Perl 6)>.  
+
+=begin table
+List        | Purpose                   | Subscribe | Archive
+=============================================================
+perl6-users    | User questions         | L<Subscribe|mailto:perl6-users-subscribe@perl.org> | L<Archive|http://nntp.perl.org/group/perl.perl6.users/>
+-------------------------------------------------------------
+perl6-language | Language/specification | L<Subscribe|mailto:perl6-language-subscribe@perl.org> | L<Archive|http://nntp.perl.org/group/perl.perl6.language/>
+-------------------------------------------------------------
+perl6-compiler | Compiler               | L<Subscribe|mailto:perl6-compiler-subscribe@perl.org> | L<Archive|http://nntp.perl.org/group/perl.perl6.compiler/>
+=end table
+
+=head2 Community Articles
+
+=item L<On Troll Hugging, Hole Digging, and Improving Open Source Communities|https://github.com/Raku/CCR/blob/main/Remaster/Zoffix%20Znet/On-Troll-Hugging-Hole-Digging-and-Improving-Open-Source-Communities.md>
+by Zoffix Znet
+
+=item L<Lessons learned from open source communities|https://medium.com/@audrey.tang/lessons-i-ve-learned-32f5d8107e34> 
+by Audrey Tang
+
+=item L<My hobby: Troll hugging|http://pugs.blogs.com/audrey/2009/08/my-hobby-troll-hugging.html>
+by Audrey Tang
+
+=item L<The Principle of Charity|https://effectiviology.com/principle-of-charity/>
+by By Itamar Shatz, PhD.  On the Importance of Using Constructive Arguments 
+(L<original paper|http://www.jstor.org/stable/20123725>)
+
+
+=head1 B<Raku®> is optimised for fun!
+
+L<Audrey Tang|https://en.wikipedia.org/wiki/Audrey_Tang> coined the phrase that 
+Raku is B<optimized for fun>, abbreviated 
+B<L<-Ofun|http://www.slideshare.net/autang/ofun-optimizing-for-fun>>.
+
+Raku has a fun-driven community: writing a Raku compiler is fun,
+developing applications too, and most of all dealing with friendly, intelligent 
+people.
+
+=head2 Articles
+
+=item L<Perl 6 is my MMORPG|http://strangelyconsistent.org/blog/perl-6-is-my-mmorpg> 
+by Carl Mäsak
+
+=item L<Raku: Both RPG and Guild|http://localhost:8000/blog/raku/Ofun/Raku-RPG-and-Guild.xml> 
+by Tim Nelson
+
+=item L<Optimized for fun|https://perlgeek.de/blog-en/perl-6/optimized-for-fun.html> (IRC conversations)
+
+=end pod

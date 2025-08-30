@@ -1,0 +1,147 @@
+=begin pod
+
+=TITLE Outreach Troupe
+
+=head1 Purpose
+
+The purpose of the Outreach troupe is to ensure the future of Raku by:
+
+=item * Ensure we have new people flowing into the community (Product 
+Strategy/Marketing)
+
+=item * Ensuring it is easy for new members of the Raku community to enter the 
+community and find their way to the places where they best serve either 
+themselves and/or the community (depending on their interests).  
+
+=item * Enable Sharing: Making it easy for people to share Raku with their 
+colleagues, associates, friends, and other people in their life.  
+
+=item * Social Cohesion activities
+
+=head1 Activities
+
+=head2 Ensure we have new people flowing into the community
+
+=head3 Product Strategy
+
+* Product Vision
+* Target Audience
+* Market Analysis
+* Value Proposition
+* Key Initiatives
+* Success Metrics
+
+=head2 Ensuring it's easy for new people to enter the community
+
+=head3 The Entry Pathway
+
+Look after raku.org to ensure that it's a good front door for newcomers.  
+This includes pathway analysis on raku.org.  
+
+=head3 Volunteer Relations/Social Media
+
+=item * Issue Weekly, cross-post to Reddit
+
+=item * Keep YouTube playlists up-to-date
+
+=head2 Enable Sharing
+
+Update marketing.raku.org
+
+=head1 Resources
+
+=head2 Code Repositories
+
+=head2 IRC/Discord channels
+
+For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.  
+
+=head2 Other communication
+
+=head1 Projects
+
+=head2 raku.org
+
+=head2 marketing.raku.org
+
+L<marketing.raku.org|https://marketing.raku.org> needs a serious update.  It's 
+still all about Perl6.  
+
+=item Flyers: These essentially just need an update to say "Raku" instead of 
+Perl 6.  
+
+=item Brochures: The "Introducing Perl 6" one could do with an update.  The 
+other could be moved to an "Historical" section.  
+
+=item Teasers: These should also be moved to an "Historical" section
+
+=item Cards: Should be updated
+
+=item Logos: These are up-to-date
+
+We should also make it possible to buy physical copies (could the proceeds go to 
+Raku?).  
+
+Possibly we should also look at adopting the following:
+
+=item L<Periodic table of Raku operators|https://www.ozonehouse.com/mark/periodic/>
+
+=item L<Raku Cheat Sheet|https://github.com/perl6/mu/raw/master/docs/Perl6/Cheatsheet/cheatsheet.txt>
+
+Note also the following:
+
+=item L<Zazzle Raku/Rakudo Merch|https://www.zazzle.com/store/rakudo>
+
+=item The following no longer functions usefully: L<Spreadshirt|https://www.spreadshirt.com/shop/rakudo/>
+
+=head2 YouTube Playlist
+
+These are terribly out-of-date (Perl 6, rather than Raku, and 7 years out of 
+date), and will require updating before they can again be used in the 
+documentation/outreach materials.  The current playlists are:
+
+=item L<Perl 6 (English)|https://www.youtube.com/playlist?list=PLRuESFRW2Fa77XObvk7-BYVFwobZHdXdK>
+
+=item L<Perl 6 (Non-English)|https://www.youtube.com/playlist?list=PLRuESFRW2Fa6PBxZ8oQhKqV8zZak3bHNN>
+
+See also L<Create a curated YouTube Playlist|https://github.com/Raku/raku.org/issues/210>
+
+=head2 The Medium Term
+
+It'd be useful to have these updated, and broken into lists of 30-50 items, 
+broken down by topic to a certain extent.  For example, there should probably be 
+a "Web Development in Raku" list.  
+
+Also, the non-English ones should be broken down by language in cases where 
+there's more than one video in the language.  
+
+=head2 The Long Term
+
+Ideally what we'd replace them with is an integration with the Raku 
+documentation (particularly the tutorials), and/or elucid8 (so that the same 
+tech can be used in other raku-related sites).  There should be a way to tag the 
+videos (key-value tags) so that they can be associated with particular documents 
+in a useful way.  Or people can choose to watch by topic, author, or whatever.  
+
+=head1 Involvement
+
+=head2 Getting involved
+
+=head2 Who else is involved
+
+librasteve
+
+=head2 Things that need doing
+
+=item1 <Core function>
+=item2		L<Link to tagged Repo Tasks|https://....>
+=item1 Documentation
+=item2		L<Link to tagged Repo Tasks|https://....>
+=item1 Crew Outreach
+=item2		Task 1
+=item2		Task 2
+=item1 User Assistance
+=item2		L<Link to documentation about User Assistance|https://....>
+
+
+=end pod

@@ -1,0 +1,53 @@
+=begin pod
+
+=TITLE DRAFT Modules Troupe
+
+=head1 Purpose
+
+The Y Crew of the X Troupe ...
+
+=head1 Activities
+
+The things we do are:
+
+=item Item 1
+=item Item 2
+=item Item 3
+
+=head1 Resources
+
+=head2 Code Repositories
+
+=head2 IRC/Discord channels
+
+For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.  
+
+=head2 Other communication
+
+=head1 Involvement
+
+=head2 Getting involved
+
+=head3 Contribute to the Ecosystem</h4>
+
+Once you've learned the language, you can write modules and share them in the 
+ecosystem. We use L<zef|https://github.com/ugexe/zef> for packaging.
+See L<this guide|https://docs.raku.org/language/modules> if you have questions 
+about how to organize modules.  If you don't know what to write, check out the 
+L<most wanted modules|https://github.com/Raku/perl6-most-wanted/blob/master/most-wanted/modules.md> list.
+
+=head2 Who else is involved
+
+=head2 Things that need doing
+
+=item1 <Core function>
+=item2		L<Link to tagged Repo Tasks|https://....>
+=item1 Documentation
+=item2		L<Link to tagged Repo Tasks|https://....>
+=item1 Crew Outreach
+=item2		Task 1
+=item2		Task 2
+=item1 User Assistance
+=item2		L<Link to documentation about User Assistance|https://....>
+
+=end pod

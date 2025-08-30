@@ -1,0 +1,25 @@
+=begin pod
+
+=TITLE Writing to Learn
+
+William K. Zissner has written a book called "Writing to Learn".  The basic 
+premise is that, by writing about something, you can organise your thoughts more 
+clearly, and that, by so doing, you learn yourself.  
+
+One way of learning about Raku is to write about it.  
+
+You can use the L<resources|https://raku.org/resources/> to learn Raku, and 
+L<write|https://planet.raku.org/> about your experience along the way! Let us 
+know when you do write something if you want to share it with the larger Raku 
+community (you should!).  The best way to do so is to join #raku on IRC, and say 
+C<weekly: URL>, where C<URL> is the URL of the article you've written.  
+
+Some writing topics could be programs you've written, tricks you've learned, 
+cool things about the Raku, etc. Because of your fresh perspective as a learner, 
+writing educational/training material would be a great idea as well.
+
+If anything is Less Than Awesome in your experience you can 
+L<chat with us|https://raku.org/community/irc>, or open an issue on the 
+L<User Experience|https://github.com/perl6/user-experience>  repository.
+
+=end pod

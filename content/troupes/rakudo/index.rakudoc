@@ -1,0 +1,67 @@
+=begin pod
+
+=TITLE DRAFT Compiler Troupe
+
+=head1 Purpose
+
+The B<Compiler Troupe> maintains the compiler(s) for the language itself.  
+
+The main website for this is the L<Rakudo Website|https://rakudo.org/>.  
+
+The B<Compiler Troupe> has a number of sub-projects, documented at
+L<Issue Trackers|https://rakudo.org/issue-trackers>
+
+=head1 Rakudo
+
+=head2 Resources
+
+=head3 Code Repositories
+
+See 
+L<Issue Trackers|https://rakudo.org/issue-trackers>
+
+=head3 IRC channels
+
+For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.
+
+Discuss with this troupe on #raku-dev.  
+
+=head2 Involvement
+
+=head3 Getting involved
+
+=place file:content/troupes/common/get-involved.rakudoc
+
+=head4 Help us write tests
+
+Help increase test coverage of the official Raku test suite called 
+L<roast|https://github.com/Raku/roast>.  This is the high bar that all Raku 
+implementations must meet. There's a lot of ground to cover, so get up to speed 
+with the L<Test module|https://docs.raku.org/language/testing>, if you don't 
+already know it, and join us!
+
+=head4 Hack on the Rakudo Compiler
+
+L<Rakudo™|https://rakudo.org/> is the most popular Raku compiler right now. 
+Hacking on Rakudo innards is a lot easier than you would think, since most of it 
+is written in Raku. However, since it isn't completely self-hosting, some parts 
+are written in L<NQP|https://github.com/Raku/nqp>.
+
+NQP is a subset of Raku that is much smaller and simpler than Raku. Rakudo targets
+NQP. Then NQP targets various backend VMs like MoarVM, Javascript, and Java.
+
+So you can get started right away by writing Raku, and if/when you need to access
+some very low-level functionality you can learn NQP. You can get up to speed fairly
+fast with this L<NQP learning course|https://github.com/edumentab/rakudo-and-nqp-internals-course>.
+So feel free to jump right in!
+
+=head3 Who else is involved
+
+....
+
+=head3 Things that need doing
+
+For things that need doing, see the 
+L<Issue Trackers|https://rakudo.org/issue-trackers>.  
+
+=end pod

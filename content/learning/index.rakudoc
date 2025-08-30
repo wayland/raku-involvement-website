@@ -1,0 +1,21 @@
+=begin pod
+
+The main Raku learning page is on L<https://raku.org/>.  
+
+Here are some other resources.  
+
+=head1 Other Articles
+
+=item L<Presentations by Jonathan Worthington|http://www.jnthn.net/articles.shtml>
+
+=head1 中文翻译资源
+
+Being kept for the day when there's more Chinese interest in Raku:
+
+=item L<Perl 6 官网网站中文翻译地址|https://github.com/ccworld1000/perl6.org>
+
+=item L<Perl 6 官网中文文档翻译地址|https://github.com/ccworld1000/doc>
+
+=item L<Raku core|https://github.com/ccworld1000/CCRaku>
+
+=end pod

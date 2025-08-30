@@ -1,0 +1,104 @@
+=begin pod
+
+=TITLE Web Framework Troupe
+
+=head1 Purpose
+
+The B<Web Framework Troupe> maintain the software that powers many of the Raku 
+websites.  
+
+The Web Framework Troupe has two major projects:
+=item raku.org (the main website)
+=item Elucid8 (for documentation)
+
+=head1 raku.org
+
+This is the main Raku website.  Its purpose is to welcome newcomers to Raku, and 
+draw them into the community.  
+
+=head2 Resources
+
+=head3 Code Repositories
+
+=item L<Source for existing raku.org|https://github.com/Raku/raku.org>
+=item L<Branch with new prototype raku.org|https://github.com/Raku/raku.org/tree/proto-25>
+
+=head3 IRC channels
+
+For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.
+
+Discuss with this crew on #raku or #raku-doc.  
+
+=head2 Involvement
+
+=head3 Getting involved
+
+=place file:content/troupes/common/get-involved.rakudoc
+
+=head3 Who else is involved
+
+The primary driver of the new design is librasteve.  Other key members of the 
+Raku community weigh in.  
+
+=head3 Things that need doing
+
+For things that need doing, see the L<raku.org Issues|https://github.com/Raku/raku.org/issues>.  
+
+=head1 Elucid8 (for documentation)
+
+This is only the software for making the documentation website.  For the actual 
+documentation, see the L<Documentation Troupe|/content/troupes/documentation/documentation>.  
+
+The main website for this software is at L<elucid8.org|https://elucid8.org/>.  
+Reading that would be a worthwhile introduction to the project.  
+
+=begin table
+=row :header
+	=cell Project/Website
+	=cell Repo(s)
+	=cell Description
+	=cell Things we Need help with
+=row
+	=cell L<Elucid8|https://elucid8.org/>
+	=cell L<github.com/elucid8-org|https://github.com/elucid8-org>
+	=cell Documentation Framework
+	=cell See issues on the repos
+=row
+	=cell Documentation (structure)
+	=cell L<github.com/Raku/doc-website|https://github.com/Raku/doc-website>
+	=cell Documentation Structure
+	=cell L<Issues|https://github.com/Raku/doc-website/issues>
+=end table
+
+=head1 Activities
+
+The things we do are:
+
+=item Work on the Elucid8 Framework
+=item Maintain the Documentation Structure for the docs.raku.org site
+
+=head2 Resources
+
+=head3 Code Repositories
+
+=item L<Elucid8 repositories|https://github.com/orgs/elucid8-org/repositories>
+=item L<Documentation (structure)|https://github.com/Raku/doc-website>
+
+=head3 IRC channels
+
+For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.
+
+Discuss with this troupe on #raku or #raku-doc.  
+
+=head2 Involvement
+
+=head3 Getting involved
+
+=place file:content/troupes/common/get-involved.rakudoc
+
+=head3 Who else is involved
+
+The primary driver of the new design is finanalyst.  Other key members of the 
+Raku community weigh in.  
+
+=end pod
