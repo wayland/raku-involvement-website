@@ -1,0 +1,39 @@
+=begin pod
+
+In the Raku community, there are a number of different projects/teams in which 
+people participate.  In this article, I'll be calling these groups of people 
+"Troupes".  Troupes are groups of people working together with a common purpose 
+or purposes, and they usually have one or more projects in their troupe.  
+
+As you become more involved in the Raku community, you will likely end up 
+working with one of these Troupes; even if it's only a bug report, or a typo 
+correction in the documentation, you will work with the appropriate troupe to 
+resolve this.  
+
+Each Troupe may also have a number of Hats that people wear. 
+
+Some Troupes (such as the Modules Troupe) are divided into multiple Crews, which 
+are the same concept, but at the next level down.  
+
+The following are the current Troupes.  
+
+=item The L<Modules|module/> Troupe works on the modules for Raku.  As a 
+developer, this is one of the easiest to participate in.  
+
+=item The L<Documentation|documentation/> Troupe works on the content of the 
+documentation
+
+=item The L<Web Framework|web-framework/> Troupe works on the frameworks that 
+support the Raku websites, including raku.org and the documentation website.  
+
+=item The L<Outreach|outreach/> Troupe works on making it easier for people to 
+enter the community, and making it easier for people to share Raku with their 
+associates.  
+
+=item L<Rakudo|rakudo/> - These people work on the Rakudo compiler for Raku, and 
+its underlying structures such as MoarVM, the virtual machine it runs on.  
+
+=item The L<DevOps|devops/> Troupe works on making sure the underlying 
+infrastructure for Raku keeps working.  
+
+=end pod

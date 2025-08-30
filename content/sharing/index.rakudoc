@@ -1,0 +1,45 @@
+=begin pod
+
+So you enjoy Raku, and want to let others know about it?  There are a variety of 
+ways you can do this.  
+
+The L<marketing|https://marketing.raku.org/> site has some resources sorely in 
+need of an update (talk to the L<Outreach Troupe|../troupes/outreach> to 
+assist).  At this point, the only useful material is the logos, which you may be 
+able to use in your efforts to share your love of Raku.  
+
+You can also get some merch at 
+L<Zazzle Raku/Rakudo Merch|https://www.zazzle.com/store/rakudo>.  
+
+=head1 Used in Production
+
+Sometimes it can be useful in your sharing of Raku to be able to cite places 
+where Raku has been used in production.  To that end, here's a list of places 
+that that has been done:
+
+=comment Should probably set all the following to be 40% wide, and scaled 
+proportionally -- https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css
+
+=place images/edument-logo.png :alt<Edument>
+
+L<
+=place images/atikon-logo.png :alt<AtiKon>
+|https://www.atikon.com/|Werbung & Kanzleimarketing für Steuerberater | Atikon>
+
+=place images/oetiker_partner-logo.png :alt<Oetiker+Partner>
+
+=place images/haltec-logo.png :alt<ALTEC Hallensysteme>
+
+=place images/qbrc-logo.jpg :alt<QBRC>
+
+=place images/cns-logo.png :alt<CNS Technical Group>
+
+=place images/helpshift-logo.png :alt<Helpshift>
+
+=place images/henley_cloud_consulting-logo.png :alt<Henley Cloud Consulting>
+
+=place images/virtual_blue-logo.png :alt<Virtual Blue>
+
+The trademarks are the property of their respective owners.
+
+=end pod

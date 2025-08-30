@@ -1,53 +1,49 @@
 =begin pod
 
-=TITLE DRAFT Modules Troupe
+=TITLE Modules and Frameworks Troupe
 
 =head1 Purpose
 
-The Y Crew of the X Troupe ...
+To develop the modules and frameworks that make a programming language useful.  
 
 =head1 Activities
 
-The things we do are:
+L<raku.land|https://raku.land/> has many modules; all we can do here is 
+highlight some of the more prominent ones that are frameworks, rather than just 
+individual modules.  
 
-=item Item 1
-=item Item 2
-=item Item 3
+=head2 Web-related Frameworks
 
-=head1 Resources
+=item1 The L<hARC stack|https://harcstack.org/>, consisting of:
 
-=head2 Code Repositories
+=item2		L<htmx|https://htmx.org/> for simple dynamic client-side code
 
-=head2 IRC/Discord channels
+=item2		L<Air|https://github.com/librasteve/Air> for coding htmx in Raku
 
-For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.  
+=item2		L<Cro|https://cro.raku.org/> for server-side Raku
 
-=head2 Other communication
+=item2		L<Red|https://fco.github.io/Red/>, an ORM, for connecting to 
+databases
 
-=head1 Involvement
+=item1 L<Elucid8|https://elucid8.org/>, for generating documentation websites 
+from Rakudoc
 
-=head2 Getting involved
+=item1 L<Humming-Bird|https://github.com/rawleyfowler/Humming-Bird>, a simple, 
+composable, and performant web-framework, inspired mainly by Sinatra, and 
+Express.  
 
-=head3 Contribute to the Ecosystem</h4>
+=head1 Terminal UI Frameworks
 
-Once you've learned the language, you can write modules and share them in the 
-ecosystem. We use L<zef|https://github.com/ugexe/zef> for packaging.
-See L<this guide|https://docs.raku.org/language/modules> if you have questions 
-about how to organize modules.  If you don't know what to write, check out the 
-L<most wanted modules|https://github.com/Raku/perl6-most-wanted/blob/master/most-wanted/modules.md> list.
+=item1 L<raku-terminal-ui|https://git.sr.ht/~bduggan/raku-terminal-ui>
 
-=head2 Who else is involved
+=head1 Automation Framework
 
-=head2 Things that need doing
+=item1 L<Sparrow|https://sparrowhub.io/>, a multi-language automation frameworks 
+that is useful for
 
-=item1 <Core function>
-=item2		L<Link to tagged Repo Tasks|https://....>
-=item1 Documentation
-=item2		L<Link to tagged Repo Tasks|https://....>
-=item1 Crew Outreach
-=item2		Task 1
-=item2		Task 2
-=item1 User Assistance
-=item2		L<Link to documentation about User Assistance|https://....>
+=item2		Configuration Management
+=item2		CI/CD
+=item2		Testing
+=item2		Data Science
 
 =end pod
