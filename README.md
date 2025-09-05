@@ -18,9 +18,6 @@ Ensure that:
 * All links link to something useful
 * All pages have incoming links
 * Each Troupe has something about reporting bugs (in the Code Repo section)
-* The book "Raku Recipes" is represented somewhere ( https://github.com/Raku/doc-website/issues/463 )
-* We have a link to design.raku.org somewhere
-
 
 # Expected process
 
@@ -34,3 +31,15 @@ Ensure that:
     *   Put together the Philosophy page (mostly just links)
     *   If the IRC page isn't sorted, discuss with librasteve
     *   Talk to the Compiler people about whether they want to keep separate sites for Rakudo/MoarVM, and whether any of the content can usefully be moved to the Rakudo Troupe directory
+
+# TODO
+
+* Troupes > DevOps: Write this based on my spreadsheet
+* Community: Lots of info about getting involved in the community
+    *    When the IRC page is done on dev.raku.org, check out the old one and see if anything needs to be included
+*    All-in: This serves the All-in people, including the Steering Council
+     *    See if the Steering Council stuff should be migrated here
+* Philosophy: Write it
+* History: big project -- see above
+    * Ensure we have a link to design.raku.org somewhere
+* The book "Raku Recipes" is represented somewhere ( https://github.com/Raku/doc-website/issues/463 )
