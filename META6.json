@@ -1,0 +1,19 @@
+{
+  "auth": "zef:wayland",
+  "build-depends": [
+    "Elucid8::Build"
+  ],
+  "depends": [
+    "Elucid8::Run-locally"
+  ],
+  "description": "A brand new and very nice module",
+  "name": "involvement-website",
+  "provides": {
+    "involvement-website": "lib/involvement-website.rakumod"
+  },
+  "resources": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
