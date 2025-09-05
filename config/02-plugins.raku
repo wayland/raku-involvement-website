@@ -1,0 +1,29 @@
+%(
+    # plugins in the order to be applied
+    # templates in later plugins over-ride or can use those in earlier ones
+    # elucid8-build prefixes names here with 'RakuDoc::Plugin::HTML::'
+    plugins => <
+        RakuDoc::Plugin::HTML::Hilite
+        RakuDoc::Plugin::HTML::ListFiles
+        RakuDoc::Plugin::HTML::Graphviz
+        RakuDoc::Plugin::HTML::FontAwesome
+        RakuDoc::Plugin::HTML::Latex
+        RakuDoc::Plugin::HTML::LeafletMaps
+        RakuDoc::Plugin::HTML::SCSS
+        RakuDoc::Plugin::HTML::Bulma
+        Elucid8::Plugin::HTML::Favicon
+        Elucid8::Plugin::HTML::UISwitcher
+        Elucid8::Plugin::HTML::AutoIndex
+        Elucid8::Plugin::HTML::SiteMap
+    >,
+    setup => (# sequence not hash because order can matter
+    ),
+    pre-file-render => (# sequence not hash because order can matter
+    ),
+    post-file-render => (# sequence not hash because order can matter
+    ),
+    post-all-content-files => (# sequence not hash because order can matter
+    ),
+    post-all-files => ( # sequence because order matters
+    )
+)
