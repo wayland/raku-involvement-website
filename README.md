@@ -4,6 +4,8 @@ like.  See
 [Pathways of Entry 2: Involvement and Troupes](]https://wayland.github.io/blog/raku/ReachingOut/Involvement-and-Troupes.xml)
 for more details.  
 
+Currently includes various pieces from eg. the old Raku.org that I thought were 
+relevant here.  
 
 This will hopefully become the source for involvement.raku.org.  At the moment, 
 it's concepts and half-written articles assembled by Tim Nelson.  This is not in 
@@ -31,7 +33,8 @@ Ensure that:
 
 * Run the concept of involvement.raku.org by the main stakeholders
 * Set up with Elucid8
-    * Repost https://dev.to/wayland/comment/312h4 on the GitHub for Elucid8
+    * Check https://github.com/elucid8-org/elucid8/issues/4 for answers, and see 
+      if we can then move ahead with it
     * Check the syntax/links (see QA, above)
 * Donate the repo to the Raku project, and work with the infra people to get the site set up
 * Look for assistance, specifically:
