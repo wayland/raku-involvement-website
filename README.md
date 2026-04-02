@@ -1,5 +1,13 @@
-This will hopefully become the source for involvement.raku.org.  At the moment, it's concepts and half-written articles
+The goal: To be a site where the major teams within the Raku community each have 
+a place to document their purpose, their work, how to get involved, and the 
+like.  See 
+[Pathways of Entry 2: Involvement and Troupes](]https://wayland.github.io/blog/raku/ReachingOut/Involvement-and-Troupes.xml)
+for more details.  
 
+
+This will hopefully become the source for involvement.raku.org.  At the moment, 
+it's concepts and half-written articles assembled by Tim Nelson.  This is not in 
+any way official at this point
 
 # Structure
 
@@ -12,34 +20,22 @@ This will hopefully become the source for involvement.raku.org.  At the moment, 
 *    All-in: This serves the All-in people, including the Steering Council
      *    See if the Steering Council stuff should be migrated here
 
-# Notes/QA
+# QA
 
 Ensure that:
 * All links link to something useful
 * All pages have incoming links
 * Each Troupe has something about reporting bugs (in the Code Repo section)
 
-# Expected process
+# Plan
 
-* Wait for finanalyst to do his blog post
-* Set up with Elucid8, and check the syntax/links (see Notes/QA, above)
-* Run the concept of involvement.raku.org by the main stakeholders (ask lizmat where I should post about it)
-* If I don't get the OK, see if I can pull out at least some of the useful bits and maybe turn them into articles or something (and talk to the person who was writing the history talk -- guifa?)
+* Run the concept of involvement.raku.org by the main stakeholders
+* Set up with Elucid8
+    * Repost https://dev.to/wayland/comment/312h4 on the GitHub for Elucid8
+    * Check the syntax/links (see QA, above)
 * Donate the repo to the Raku project, and work with the infra people to get the site set up
 * Look for assistance, specifically:
     *   Whoever was writing that history talk, see if they can help me with the History article
     *   Put together the Philosophy page (mostly just links)
     *   If the IRC page isn't sorted, discuss with librasteve
     *   Talk to the Compiler people about whether they want to keep separate sites for Rakudo/MoarVM, and whether any of the content can usefully be moved to the Rakudo Troupe directory
-
-# TODO
-
-* Troupes > DevOps: Write this based on my spreadsheet
-* Community: Lots of info about getting involved in the community
-    *    When the IRC page is done on dev.raku.org, check out the old one and see if anything needs to be included
-*    All-in: This serves the All-in people, including the Steering Council
-     *    See if the Steering Council stuff should be migrated here
-* Philosophy: Write it
-* History: big project -- see above
-    * Ensure we have a link to design.raku.org somewhere
-* The book "Raku Recipes" is represented somewhere ( https://github.com/Raku/doc-website/issues/463 )
