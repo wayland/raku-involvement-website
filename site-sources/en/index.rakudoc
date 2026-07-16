@@ -1,22 +1,46 @@
 =begin rakudoc
-=TITLE Minimal Site with Elucid8
-=SUBTITLE A minimal index page
-=for AUTHOR :hidden
-Richard Hainsworth, aka finanalyst
+=TITLE Raku Community
+=SUBTITLE Finding your Place with Raku
 
-=for VERSION :hidden
-v 0.1.0
+This site has two major purposes:
 
-This is a page so that a minimal site can be created.
+=item1 It helps you to understand the background of the Raku community
+=item1 It assist you in finding your way around the various parts of the community, and making 
+contact with people of similar interests
 
-RakuDoc is a human-readable markup language that has markup and customisation
-included.
+=item1 L</community/index>
 
-The L<RakuDoc v2 specifiation|language/rakudoc_v2> has examples of many RakuDoc features.
+=item1 /projects
 
-The RakuDoc renderer used by I<Elucid8> is B<Rakuast::RakuDoc::Render> and it implements all of the
-mandatory elements. It also implements many additional blocks, which can be seen in
-L<RakuDoc extras example|examples>.
+=item1 L</sharing/index>
+=item2 L</sharing/writing-to-learn>
+
+=item1 L</philosophy/index>
+
+=item1 L</history/index>
+=item2 L</history/compilers>
+
+=item1 L</troupes/index>
+=item2 /troupes/compiler/index
+=item3 L</troupes/compiler/rakudo/index>
+=item2 L</troupes/module/index>
+=item2 L</troupes/devops/index>
+=item2 L</troupes/documentation/index>
+=item2 L</troupes/outreach/index>
+=item2 L</troupes/web-framework/index>
+
+=item1 L</all-in/index>
+
+=item1 L</learning/index>
+=item1 L</tools/index>
+
+--
+
+=item1 L</troupes/common/get-involved>
+
+=begin ListFiles :select<page-card=Home>
+Site pages
+=end ListFiles
 
 =end rakudoc
 

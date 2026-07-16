@@ -1,26 +1,32 @@
-=begin pod
+=begin pod :page-card<Troupes> :nav-order<30>
 
-=TITLE DRAFT Documentation Troupe
+=TITLE Documentation Troupe
+
+=SUBTITLE Writes/maintains the Raku documentation
 
 =head1 Purpose
 
-The Y Crew of the X Troupe ...
+The Documentation Troupe writes/maintains the Raku documentation
 
 =head1 Activities
 
 The things we do are:
 
-=item Item 1
-=item Item 2
-=item Item 3
+=item Maintain the documentation website
 
 =head1 Resources
 
 =head2 Code Repositories
 
+The L<Documentation Website|https://docs.raku.org/> is in the repo at L<https://github.com/Raku/doc>.  
+
 =head2 IRC/Discord channels
 
-For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/irc/> page.  
+For information about the IRC channels, see the IRC section of the L<Community Page|https://raku.org/community/irc/> 
+on the main website.  
+
+Join the C<#raku-doc> channel, which is L<logged|https://irclogs.raku.org/raku-doc/live.html>.  
+It's also bridged to Discord.  
 
 =head2 Other communication
 
@@ -40,14 +46,53 @@ L<Github Repo|https://github.com/Raku/doc>.
 
 =head2 Things that need doing
 
-=item1 <Core function>
-=item2		L<Link to tagged Repo Tasks|https://....>
-=item1 Documentation
-=item2		L<Link to tagged Repo Tasks|https://....>
-=item1 Crew Outreach
-=item2		Task 1
-=item2		Task 2
-=item1 User Assistance
-=item2		L<Link to documentation about User Assistance|https://....>
+=item1 Documenting L<migrations from other languages|https://github.com/Raku/doc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22other%20language%22>
+
+=item1 L<Requests for Improvements|https://github.com/Raku/doc/issues?q=is%3Aissue%20state%3Aopen%20label%3ARFE> and 
+L<New Documentation|https://github.com/Raku/doc/issues?q=is%3Aissue%20state%3Aopen%20label%3Anew>.  
+
+The following table is ordered with the highest-ranked TIOBE/GitHub rankings first.  Note that ranks are
+not sequential, but are the rank on whichever is higher of TIOBE/GitHub.  
+
+=begin table :caption('Migration from Other Languages')
+
+Rank    | Language      | Status
+========|===============|=======
+1       | Python        | Nutshell -- probably needs more comments though
+2       | Java          | Not Started
+2       | C<C++>        | Not Started
+3       | C             | Not Started
+3       | Go            | Not Started
+4       | Javascript / Typescript    | Nutshell -- incomplete
+5       | C#            | Not Started
+7       | PHP           | Not Started - Tim Nelson (wayland) may do
+8       | Visual Basic  | Not Started
+8       | Ruby          | Nutshell
+9       | Pascal        | Not Started
+10      | SQL           | Not Started - Tim Nelson (wayland) will do
+11      | Fortran       | Not Started
+11      | Nix           | Not Started
+12      | R             | Not Started
+12      | Bash          | Not Started
+13      | Ada           | Not Started
+13      | Rust          | Not Started
+14      | Scratch       | Not Started
+14      | Scala         | Not Started
+15      | Kotlin        | Not Started
+16      | Swift         | Not Started
+16      | Perl          | Nutshell and Others
+17      | MATLAB        | Not Started
+17      | Dart          | Not Started
+18      | Groovy        | Not Started
+18      | Assembly      | Not Started
+20      | COBOL         | Not Started - Tim Nelson (wayland) will do
+20      | Lua           | Not Started
+27      | Haskell       | Nutshell -- incomplete
+28      | FoxPro/dBase/xHarbour	  | Not Started - Tim Nelson (wayland) will do
+38      | ABAP          | Not Started - Tim Nelson (wayland) may do
+39      | RPG           | Not Started - Tim Nelson (wayland) may do
+40      | PL/SQL        | Not Started - Tim Nelson (wayland) will do
+
+=end table
 
 =end pod

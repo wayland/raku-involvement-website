@@ -1,4 +1,8 @@
-=begin pod
+=begin pod :page-card<Home> :nav-order<90>
+
+=TITLE Development Tools
+
+=SUBTITLE Additional Development tools
 
 The main tools documentation is available from L<raku.org|https://raku.org/>.  
 

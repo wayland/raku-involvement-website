@@ -1,4 +1,8 @@
-=begin pod
+=begin pod :page-card<Home> :nav-order<80>
+
+=TITLE Other Learning Resources
+
+=SUBTITLE Internals, and Chinese Resources
 
 The main Raku learning page is on L<https://raku.org/>.  
 

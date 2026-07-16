@@ -3,3 +3,4 @@ repos
 misc/repo-info.rakuon
 misc/file-data.rakuon
 publication/
+*.code-workspace

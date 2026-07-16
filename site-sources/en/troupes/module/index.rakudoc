@@ -1,4 +1,4 @@
-=begin pod
+=begin pod :page-card<Troupes> :nav-order<20>
 
 =TITLE Modules and Frameworks Troupe
 
@@ -16,7 +16,7 @@ individual modules.
 
 =item1 The L<hARC stack|https://harcstack.org/>, consisting of:
 
-=item2		L<htmx|https://htmx.org/> for simple dynamic client-side code
+=item2 L<htmx|https://htmx.org/> for simple dynamic client-side code
 
 =item2		L<Air|https://github.com/librasteve/Air> for coding htmx in Raku
 

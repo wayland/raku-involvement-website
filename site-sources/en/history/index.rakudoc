@@ -1,4 +1,8 @@
-=begin pod
+=begin pod  :page-card<Home> :nav-order<50>
+
+=TITLE Raku: The History
+
+=SUBTITLE Resources on the History of Raku
 
 =head1 The Readable History
 
@@ -9,8 +13,9 @@ Decade                   | Years     | Summary
 ========================
 L<The First Decade|http://strangelyconsistent.org/blog/happy-10th-anniversary-perl-6> | 2000-2010 | Design and Beginnings |
 ------------------------
-L<The Second Decade|???> | 2010-2020 | Building and Renaming |
-L<The Third Decade|???>  | 2020-2025 | AST and Ecosystem |
+L<The Second Decade|???> (not yet written) | 2010-2020 | Building and Renaming |
+------------------------
+L<The Third Decade|???> (not yet written) | 2020-2025 | AST and Ecosystem |
 =end table
 
 =head1 Timeline
@@ -25,12 +30,18 @@ Date       | Event
 2000       | L<Larry's Speech|https://web.archive.org/web/20221206183705/https://raku.org/archive/talks/2000/als/larry-als.txt>
 ------------------
 2005-02-02 | A. Tang L<announces|https://www.mail-archive.com/perl6-all@perl.org/msg45008.html> beginning implementation of Pugs
+------------------
 2005       | Patrick Michaud begins implemeting what would (in 2008) become Rakudo on Parrot
+------------------
 2009-03-17 | Parrot 1.0 released
+------------------
 2010-07-29 | Rakudo Star released
+------------------
 2017-10-02 | Final commit to Parrot
+------------------
 2021-08    | Parrot discontinued (replaced with MoarVM)
 ------------------
+=end table
 
 =head1 Other Notes
 
@@ -39,26 +50,28 @@ Regarding the mug-throwing incident (see "The First Decade"), see also:
 =item https://web.archive.org/web/20221206183705/https://raku.org/archive/talks/2000/als/larry-als.txt
 =item https://www.nntp.perl.org/group/perl.packrats/2002/07/msg3.html
 
+---
 
-*   First Decade
-    *    The Jon Orwant Mug-throwing Incident
+=item1	First Decade
+=item2		The Jon Orwant Mug-throwing Incident
 		Documented at https://web.archive.org/web/20221206183705/https://raku.org/archive/talks/2000/als/larry-als.txt
 		There was some on the mailing list too
-    *    A summary of the design process (Apocalypses, Exegeses, Synopses, etc)
-    *    A little aside on the Perl6/Parrot setup
-    *    Pugs
-*   Second Decade
-    *    When was Rakudo rewritten on MoarVM?  
-    *    When was the Perl6 > Raku rename?
-    *    When were we booted from CPAN?
-    *    When did zef begin, and what preceeded it?  
-    *    When did we transition from specs to roast
-    *    Any relevant material from design.raku.org, and also copies of the historical docs (Apocalypses, etc)
-*   The Third Decade
-    *    When was 6.c released?  
-    *    When was 6.d released?  
-    *    Were there earlier versions (6.b, 6.a), and are they still supported?  
-    *    When did the RakuAST refactor begin?  
-    *    When did rakubrew begin?  
+=item2		A summary of the design process (Apocalypses, Exegeses, Synopses, etc)
+=item3			cf. L<Old Design Documents|https://design.raku.org/>
+=item2		A little aside on the Perl6/Parrot setup
+=item2		Pugs
+=item1	Second Decade
+=item2		When was Rakudo rewritten on MoarVM?  
+=item2		When was the Perl6 > Raku rename?
+=item2		When were we booted from CPAN?
+=item2		When did zef begin, and what preceeded it?  
+=item2		When did we transition from specs to roast
+=item2		Any relevant material from design.raku.org, and also copies of the historical docs (Apocalypses, etc)
+=item1	The Third Decade
+=item2		When was 6.c released?  
+=item2		When was 6.d released?  
+=item2		Were there earlier versions (6.b, 6.a), and are they still supported?  
+=item2		When did the RakuAST refactor begin?  
+=item2		When did rakubrew begin?  
 
 =end pod

@@ -1,0 +1,27 @@
+=begin pod :page-card<Troupes> :nav-order<40>
+
+=TITLE DevOps Troupe
+
+=SUBTITLE Ensures the underlying infrastructure for Raku keeps working.
+
+=head1 Activities
+
+The things we do are:
+
+=item Configuration Management
+=item Operations
+=item Packaging
+=item CI/CD
+=item raku.land
+
+=head2 Other communication
+
+=head1 Involvement
+
+=head2 Getting involved
+
+To get involved, speak to...
+
+=head2 Who else is involved
+
+=end pod

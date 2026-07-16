@@ -1,20 +1,32 @@
-=begin pod
+=begin pod :page-card<Troupes> :nav-order<70>
 
-=TITLE Y Crew (X Troupe)
+=TITLE History Troupe
 
-=SUBTITLE Purpose goes here
+=SUBTITLE Preserve the history of the Raku project
+
+=head1 Purpose
+
+The History Troupe preserves and records the history of Raku
 
 =head1 Activities
 
 The things we do are:
 
-=item Item 1
-=item Item 2
-=item Item 3
+=item Collect historical material about Raku (both in the CCR project below, and 
+in the Timeline on the L<History page of this website|../../history/index>.  
+
+=item Remaster any outdated material
+
+=item Research and write new historical material
 
 =head1 Resources
 
 =head2 Code Repositories
+
+The L<Raku Collect, Conserve and Remaster Project|https://raku.github.io/CCR/> 
+website is in the repo at L<https://github.com/Raku/CCR>.  
+
+The L<History section of this website>
 
 =head2 IRC/Discord channels
 

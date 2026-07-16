@@ -1,4 +1,4 @@
-=begin pod
+=begin pod :page-card<Troupes> :nav-order<50>
 
 =TITLE Outreach Troupe
 
@@ -6,17 +6,17 @@
 
 The purpose of the Outreach troupe is to ensure the future of Raku by:
 
-=item * Ensure we have new people flowing into the community (Product 
+=item1 Ensure we have new people flowing into the community (Product 
 Strategy/Marketing)
 
-=item * Ensuring it is easy for new members of the Raku community to enter the 
+=item Ensuring it is easy for new members of the Raku community to enter the 
 community and find their way to the places where they best serve either 
 themselves and/or the community (depending on their interests).  
 
-=item * Enable Sharing: Making it easy for people to share Raku with their 
+=item Enable Sharing: Making it easy for people to share Raku with their 
 colleagues, associates, friends, and other people in their life.  
 
-=item * Social Cohesion activities
+=item Social Cohesion activities
 
 =head1 Activities
 
@@ -24,25 +24,27 @@ colleagues, associates, friends, and other people in their life.
 
 =head3 Product Strategy
 
-* Product Vision
-* Target Audience
-* Market Analysis
-* Value Proposition
-* Key Initiatives
-* Success Metrics
+=item Product Vision
+=item Target Audience
+=item Market Analysis
+=item Value Proposition
+=item Key Initiatives
+=item Success Metrics
 
 =head2 Ensuring it's easy for new people to enter the community
 
 =head3 The Entry Pathway
 
 Look after raku.org to ensure that it's a good front door for newcomers.  
-This includes pathway analysis on raku.org.  
+This includes pathway analysis on raku.org starting with a survey of 
+404 errors, to see if any need to be replaced with 3xx responses that
+send the viewer somewhere useful
 
 =head3 Volunteer Relations/Social Media
 
-=item * Issue Weekly, cross-post to Reddit
+=item Issue Weekly, cross-post to Reddit
 
-=item * Keep YouTube playlists up-to-date
+=item Keep YouTube playlists up-to-date
 
 =head2 Enable Sharing
 
@@ -106,7 +108,7 @@ documentation/outreach materials.  The current playlists are:
 
 See also L<Create a curated YouTube Playlist|https://github.com/Raku/raku.org/issues/210>
 
-=head2 The Medium Term
+=head3 The Medium Term
 
 It'd be useful to have these updated, and broken into lists of 30-50 items, 
 broken down by topic to a certain extent.  For example, there should probably be 
@@ -115,7 +117,7 @@ a "Web Development in Raku" list.
 Also, the non-English ones should be broken down by language in cases where 
 there's more than one video in the language.  
 
-=head2 The Long Term
+=head3 The Long Term
 
 Ideally what we'd replace them with is an integration with the Raku 
 documentation (particularly the tutorials), and/or elucid8 (so that the same 

@@ -1,4 +1,4 @@
-=begin pod
+=begin pod :page-card<Troupes> :nav-order<60>
 
 =TITLE Web Framework Troupe
 
@@ -33,7 +33,7 @@ Discuss with this crew on #raku or #raku-doc.
 
 =head3 Getting involved
 
-=place file:content/troupes/common/get-involved.rakudoc
+=place file:troupes/common/get-involved.rakudoc
 
 =head3 Who else is involved
 
@@ -47,7 +47,7 @@ For things that need doing, see the L<raku.org Issues|https://github.com/Raku/ra
 =head1 Elucid8 (for documentation)
 
 This is only the software for making the documentation website.  For the actual 
-documentation, see the L<Documentation Troupe|/content/troupes/documentation/documentation>.  
+documentation, see the L<Documentation Troupe|/troupes/documentation/documentation>.  
 
 The main website for this software is at L<elucid8.org|https://elucid8.org/>.  
 Reading that would be a worthwhile introduction to the project.  
@@ -94,7 +94,7 @@ Discuss with this troupe on #raku or #raku-doc.
 
 =head3 Getting involved
 
-=place file:content/troupes/common/get-involved.rakudoc
+=place file:troupes/common/get-involved.rakudoc
 
 =head3 Who else is involved
 

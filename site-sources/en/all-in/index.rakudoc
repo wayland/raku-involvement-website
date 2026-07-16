@@ -1,0 +1,24 @@
+=begin pod :page-card<Home> :nav-order<70>
+
+=TITLE All-In
+
+=SUBTITLE For the most dedicated Rakoons
+
+This page is resources for the people who live and breathe Raku, and are 
+dedicated to making it the best it can possibly be.  
+
+=item L<Raku Foundation|https://raku.foundation/>
+
+=head3 Raku Steering Council (RSC)
+
+The L<Steering Council|https://github.com/Raku-Steering-Council/Papers> is a 
+7-person committee with many responsibilities, including maintaining the quality 
+and stability of the Raku language, its compilers, and its ecosystem. Also to 
+make contributing and learning Raku as accessible, inclusive, and sustainable as 
+possible.
+
+The L<Problem Solving|https://github.com/Raku/problem-solving> repository 
+contains issues that impact Raku which require consensus to resolve. The RSC is 
+responsible for guiding any deadlocked issues to completion.
+
+=end pod

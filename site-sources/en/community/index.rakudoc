@@ -1,9 +1,16 @@
-=begin pod
+=begin pod :page-card<Home> :nav-order<10>
 
 =TITLE Community
 
-The main Community page is at L<https://raku.org/community/>.  However, there 
-are some additional parts of the community you may like to know about.  
+=SUBTITLE More ways of Connecting to the Raku Community
+
+To get involved in the Raku community in general, see the main Community page at 
+L<https://raku.org/community/>.  If you're keen to be involved and help, then 
+your best bet is to look over the L<Troupes|../troupes> page, and find the 
+troupes that best suit your skills.  
+
+There are also some general community resources which were not significant 
+enough to put on L<https://raku.org/community/> but can still be handy/helpful.  
 
 =head1 Mailing Lists
 
@@ -21,7 +28,7 @@ perl6-language | Language/specification | L<Subscribe|mailto:perl6-language-subs
 perl6-compiler | Compiler               | L<Subscribe|mailto:perl6-compiler-subscribe@perl.org> | L<Archive|http://nntp.perl.org/group/perl.perl6.compiler/>
 =end table
 
-=head2 Community Articles
+=head1 Community Articles
 
 =item L<On Troll Hugging, Hole Digging, and Improving Open Source Communities|https://github.com/Raku/CCR/blob/main/Remaster/Zoffix%20Znet/On-Troll-Hugging-Hole-Digging-and-Improving-Open-Source-Communities.md>
 by Zoffix Znet
@@ -29,7 +36,7 @@ by Zoffix Znet
 =item L<Lessons learned from open source communities|https://medium.com/@audrey.tang/lessons-i-ve-learned-32f5d8107e34> 
 by Audrey Tang
 
-=item L<My hobby: Troll hugging|http://pugs.blogs.com/audrey/2009/08/my-hobby-troll-hugging.html>
+=item L<My hobby: Troll hugging|https://web.archive.org/web/20250913235721/https://pugs.blogs.com/audrey/2009/08/my-hobby-troll-hugging.html>
 by Audrey Tang
 
 =item L<The Principle of Charity|https://effectiviology.com/principle-of-charity/>
