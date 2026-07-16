@@ -1,0 +1,43 @@
+=begin pod :page-card<Troupes> :nav-order<10>
+
+=TITLE Compiler Troupe
+
+=SUBTITLE Work on the compilers, tests, and VMs for Raku.
+
+=head1 Purpose
+
+The B<Compiler Troupe> maintains the compiler(s) for the language itself.  
+
+=head1 Crews
+
+=begin ListFiles :select<page-card=CrewsCompiler> :sort-by<nav-order>
+Compiler Crews
+=end ListFiles
+
+=item [Link to MoarVM Crew goes here]
+
+=head3 IRC channels
+
+For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/> page.
+
+Discuss with this troupe on #raku-dev.  
+
+=head2 Involvement
+
+=head3 Getting involved
+
+=place file:site-sources/en/troupes/common/get-involved.rakudoc
+
+=head4 Help us write tests
+
+Help increase test coverage of the official Raku test suite called 
+L<roast|https://github.com/Raku/roast>.  This is the high bar that all Raku 
+implementations must meet. There's a lot of ground to cover, so get up to speed 
+with the L<Test module|https://docs.raku.org/language/testing>, if you don't 
+already know it, and join us!
+
+=head3 Who else is involved
+
+....
+
+=end pod

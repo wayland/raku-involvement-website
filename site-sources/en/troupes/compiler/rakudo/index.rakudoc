@@ -1,10 +1,13 @@
-=begin pod
+=begin pod :page-card<CrewsCompiler> :nav-order<10>
 
-=TITLE DRAFT Compiler Troupe
+=TITLE Rakudo Crew
+
+=SUBTITLE Work on the Rakudo compiler for Raku.
 
 =head1 Purpose
 
-The B<Compiler Troupe> maintains the compiler(s) for the language itself.  
+The B<Rakudo Crew> of the B<Compiler Troupe> maintains the compiler(s) for the 
+language itself.  
 
 The main website for this is the L<Rakudo Website|https://rakudo.org/>.  
 
@@ -22,23 +25,15 @@ L<Issue Trackers|https://rakudo.org/issue-trackers>
 
 =head3 IRC channels
 
-For information about the IRC channels, see the L<#raku IRC channel|https://raku.org/community/> page.
+For information about the IRC channels, see the L<Raku IRC channel|https://raku.org/community/> page.
 
-Discuss with this troupe on #raku-dev.  
+Discuss with this troupe on the #raku-dev channel.  
 
 =head2 Involvement
 
 =head3 Getting involved
 
-=place file:troupes/common/get-involved.rakudoc
-
-=head4 Help us write tests
-
-Help increase test coverage of the official Raku test suite called 
-L<roast|https://github.com/Raku/roast>.  This is the high bar that all Raku 
-implementations must meet. There's a lot of ground to cover, so get up to speed 
-with the L<Test module|https://docs.raku.org/language/testing>, if you don't 
-already know it, and join us!
+=place file:site-sources/en/troupes/common/get-involved.rakudoc
 
 =head4 Hack on the Rakudo Compiler
 

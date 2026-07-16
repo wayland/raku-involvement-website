@@ -2,7 +2,7 @@
 
 =TITLE Raku: The History
 
-=SUBTITLE Resources on the History of Raku
+=SUBTITLE Learn about the History of Raku
 
 =head1 The Readable History
 
@@ -42,6 +42,10 @@ Date       | Event
 2021-08    | Parrot discontinued (replaced with MoarVM)
 ------------------
 =end table
+
+=head1 Other History Documents
+
+L<The History of Raku Compilers|compilers>
 
 =head1 Other Notes
 

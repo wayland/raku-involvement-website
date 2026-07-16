@@ -22,7 +22,10 @@
     :glues( {               #| files that should be rendered after all the others
                             #| the files are in the form :filename( n ), where n >= 1
                             #| n is rendered before n+1
-        :index(1),
+                            #| nested ListFiles glues before parent glues that list them
+        'troupes/compiler/index' => 1,
+        'troupes/index' => 2,
+        :index(3),
         } ),
     :deprecated( %(         #| mapping of deprecated urls to
                             #| newer equivalents

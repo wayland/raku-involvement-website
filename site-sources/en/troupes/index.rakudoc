@@ -1,4 +1,4 @@
-=begin pod
+=begin pod :page-card<Home> :nav-order<60>
 
 =TITLE Troupes
 
@@ -21,23 +21,8 @@ are the same concept, but at the next level down.
 
 The following are the current Troupes.  
 
-=item The L<Modules|module/> Troupe works on the modules for Raku.  As a 
-developer, this is one of the easiest to participate in.  
-
-=item The L<Documentation|documentation/> Troupe works on the content of the 
-documentation
-
-=item The L<Web Framework|web-framework/> Troupe works on the frameworks that 
-support the Raku websites, including raku.org and the documentation website.  
-
-=item The L<Outreach|outreach/> Troupe works on making it easier for people to 
-enter the community, and making it easier for people to share Raku with their 
-associates.  
-
-=item L<Rakudo|rakudo/> - These people work on the Rakudo compiler for Raku, and 
-its underlying structures such as MoarVM, the virtual machine it runs on.  
-
-=item The L<DevOps|devops/> Troupe works on making sure the underlying 
-infrastructure for Raku keeps working.  
+=begin ListFiles :select<page-card=Troupes> :sort-by<nav-order>
+Troupes
+=end ListFiles
 
 =end pod

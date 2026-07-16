@@ -1,6 +1,9 @@
-=begin pod :page-card<Troupes> :nav-order<60>
+=begin pod :page-card<Troupes> :nav-order<50>
 
 =TITLE Web Framework Troupe
+
+=SUBTITLE Works on the frameworks that support the Raku websites, including 
+raku.org and the documentation website.
 
 =head1 Purpose
 

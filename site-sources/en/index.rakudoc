@@ -38,7 +38,7 @@ contact with people of similar interests
 
 =item1 L</troupes/common/get-involved>
 
-=begin ListFiles :select<page-card=Home>
+=begin ListFiles :select<page-card=Home> :sort-by<nav-order>
 Site pages
 =end ListFiles
 
