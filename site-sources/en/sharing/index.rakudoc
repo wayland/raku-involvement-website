@@ -1,4 +1,8 @@
-=begin pod
+=begin pod :page-card<Home> :nav-order<30>
+
+=TITLE Sharing
+
+=SUBTITLE Sharing your enthusiasm for Raku with others
 
 So you enjoy Raku, and want to let others know about it?  There are a variety of 
 ways you can do this.  
@@ -8,8 +12,31 @@ need of an update (talk to the L<Outreach Troupe|../troupes/outreach> to
 assist).  At this point, the only useful material is the logos, which you may be 
 able to use in your efforts to share your love of Raku.  
 
-You can also get some merch at 
+=head1 Books/Merch/Financial Support
+
+=item1 B<Books> don't directly support Raku itself, but they support other 
+members of the Raku community,  Note that a number also refer to it as Perl 6, 
+which is the old name.  
+
+=item2 A few select books can be found at L<https://raku.org/learn>
+
+=item2 A larger selection can be found at L<https://perl6book.com/>
+
+=item2 Neither of the above lists includes 
+L<Raku Recipes|https://www.amazon.com.au/Raku-Recipes-Problem-Solution-J-J-Merelo/dp/1484262573>
+
+=item1 B<Merch>: You can also get some merch at 
 L<Zazzle Raku/Rakudo Merch|https://www.zazzle.com/store/rakudo>.  
+
+=item1 B<L<Donations|https://raku.foundation/Donations>> can be made to the Raku 
+Foundation, which supports events, grants, and helps keep the Raku 
+infrastructure running, 
+
+=head1 Learning/Writing about Raku
+
+Sometimes the best way to learn about something is to write about it,  You can 
+read more about this approach on the L<Writing to Learn|sharing/writing-to-learn> 
+page.  
 
 =head1 Used in Production
 
@@ -20,25 +47,26 @@ that that has been done:
 =comment Should probably set all the following to be 40% wide, and scaled 
 proportionally -- https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css
 
-=place images/edument-logo.png :alt<Edument>
+P<Edument|file:site-sources/en/images/edument-logo.png>
 
 L<
-=place images/atikon-logo.png :alt<AtiKon>
-|https://www.atikon.com/|Werbung & Kanzleimarketing für Steuerberater | Atikon>
+	P<Atikon|file:site-sources/en/images/atikon-logo.png>
+	|https://www.atikon.com/
+>
 
-=place images/oetiker_partner-logo.png :alt<Oetiker+Partner>
+P<Oetiker+Partner|file:site-sources/en/images/oetiker_partner-logo.png>
 
-=place images/haltec-logo.png :alt<ALTEC Hallensysteme>
+P<ALTEC Hallensysteme|file:site-sources/en/images/haltec-logo.png>
 
-=place images/qbrc-logo.jpg :alt<QBRC>
+P<QBRC|file:site-sources/en/images/qbrc-logo.jpg>
 
-=place images/cns-logo.png :alt<CNS Technical Group>
+P<CNS Technical Group|file:site-sources/en/images/cns-logo.png>
 
-=place images/helpshift-logo.png :alt<Helpshift>
+P<Helpshift|file:site-sources/en/images/helpshift-logo.png>
 
-=place images/henley_cloud_consulting-logo.png :alt<Henley Cloud Consulting>
+P<Henley Cloud Consulting|file:site-sources/en/images/henley_cloud_consulting-logo.png>
 
-=place images/virtual_blue-logo.png :alt<Virtual Blue>
+P<Virtual Blue|file:site-sources/en/images/virtual_blue-logo.png>
 
 The trademarks are the property of their respective owners.
 

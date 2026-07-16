@@ -8,36 +8,6 @@ This site has two major purposes:
 =item1 It assist you in finding your way around the various parts of the community, and making 
 contact with people of similar interests
 
-=item1 L</community/index>
-
-=item1 /projects
-
-=item1 L</sharing/index>
-=item2 L</sharing/writing-to-learn>
-
-=item1 L</philosophy/index>
-
-=item1 L</history/index>
-=item2 L</history/compilers>
-
-=item1 L</troupes/index>
-=item2 /troupes/compiler/index
-=item3 L</troupes/compiler/rakudo/index>
-=item2 L</troupes/module/index>
-=item2 L</troupes/devops/index>
-=item2 L</troupes/documentation/index>
-=item2 L</troupes/outreach/index>
-=item2 L</troupes/web-framework/index>
-
-=item1 L</all-in/index>
-
-=item1 L</learning/index>
-=item1 L</tools/index>
-
---
-
-=item1 L</troupes/common/get-involved>
-
 =begin ListFiles :select<page-card=Home> :sort-by<nav-order>
 Site pages
 =end ListFiles
