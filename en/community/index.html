@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en"
+           class="theme-light"
+           style="scroll-padding-top:var(--bulma-navbar-height)" >
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Community</title>
+<link rel="icon" href="/raku-involvement-website/assets/favicon.ico">
+<style>/* AutoIndex */
+.autof-container{width:fit-content;margin:auto;display:flex;flex-direction:column;margin-bottom:1.25rem;font-size:1rem;font-weight:500;line-height:1.5;border:1px solid #ccc;border-bottom:5px solid #d9d9d9;box-shadow:0 2px 3px 0 rgba(0,0,0,.07)}.autof-container .autof-caption{display:flex;justify-content:center;background:#f2f2f2;border-bottom:1px solid #ccc;color:#83858d}.autof-container .autof-file{display:inline-block;border-top:1px solid #ccc;border-bottom:1px solid #ccc;break-inside:avoid;text-align:center}.autof-container .autof-file .autof-link{display:inline-block;width:100%;padding-top:.25rem}.autof-container .autof-file p{padding-left:.5rem;padding-right:.5rem;margin-bottom:.25rem}.autof-error{color:red;font-size:xlarge}
+</style>
+<style>/* bulma */
+#page-nav{width:25%;position:fixed}#page-nav .panel-block .toc{overflow-y:scroll;height:65vh}#page-nav .panel-block .index{overflow-y:scroll;height:65vh}#mobile-nav{margin-top:1.75rem}.main-footer{z-index:1;position:relative}.toc-item{margin-left:calc(var(--level)*1rem)}.toc-item::before{content:attr(data-bullet)}.toc-item:hover{background:var(--bulma-background)}.toc-item a{padding-left:.4rem;text-decoration:none;color:var(--bulma-text)}
+</style>
+<style>/* bulma */
+.content p+ul.item-list{margin-top:0}.content p+ol.item-list{margin-top:0}li.item{margin-left:calc(var(--level)*2rem)}li.item::marker{content:attr(data-bullet) " "}li.item.extended-item>p{margin:0}li.numitem::marker{content:attr(data-bullet) " "}.delta:hover{border:var(--bulma-border-hover) 1px solid}.navbar-start{margin-bottom:1rem}table{width:fit-content;margin:auto}table caption{font-weight:bold}
+</style>
+<style>/* bulma */
+/*! Styling for Raku doc-website */.raku-webs.title{color:#a30031;text-align:center;margin-bottom:2rem}.raku-webs.subtitle{text-align:center;margin-top:1.25rem}.heading>a{color:#a30031}.raku-webs-h1{font-size:1.375rem;font-weight:500;padding:.35rem;text-align:center;margin-top:.75rem;margin-bottom:1rem;background:var(--bulma-background-active);border:1px solid hsl(221,14%,86%);border-bottom:3px solid #a30031;scroll-margin-top:4.625rem}.raku-webs-h2{font-size:1.375rem;font-weight:500;padding:.25rem;margin-top:.75rem;margin-bottom:1rem;border-bottom:3px solid #a30031;scroll-margin-top:4rem}.raku-webs-h3{font-size:1.25rem;font-weight:500;margin-top:.75rem;margin-bottom:1rem;scroll-margin-top:4rem}.raku-webs-h4{font-size:1rem;font-weight:500;margin-bottom:1rem;scroll-margin-top:4rem}.raku-webs-h5{font-size:.875rem;font-weight:500;margin-bottom:1rem;scroll-margin-top:3rem}.raku-webs-h6{font-size:.75rem;font-weight:600;margin-bottom:1rem;scroll-margin-top:3rem}a.raku-webs-anchor{font-size:.9em;text-decoration:none;visibility:hidden;vertical-align:super}a.raku-webs-anchor:hover{color:var(--bulma-link)}.raku-webs-h1:hover a.raku-webs-anchor,.raku-webs-h2:hover a.raku-webs-anchor,.raku-webs-h3:hover a.raku-webs-anchor,.raku-webs-h4:hover a.raku-webs-anchor,.raku-webs-h5:hover a.raku-webs-anchor,.raku-webs-h6:hover a.raku-webs-anchor{visibility:visible;padding-left:5px}nav.raku-webs.panel{padding-top:1.5em}span.code{background-color:var(--bulma-border-weak);border-radius:5px}span.Elucid8-ui{margin-left:.5em;margin-right:.5em}.tooltip{position:relative;display:inline-block}.tooltip .tooltiptext{visibility:hidden;width:150%;background-color:#555;color:#fff;text-align:center;border-radius:6px;padding:5px 0;position:absolute;z-index:1;top:125%;right:-25%;opacity:0;transition:opacity .3s}.tooltip:hover .tooltiptext{visibility:visible;opacity:1}#Elucid8_choice .tooltiptext{right:100%;width:200%}.navbar.raku-webs{background:var(--bulma-background-active)}.raku-webs .navbar-item{color:var(--bulma-text);text-shadow:-0.1px 0 var(--bulma-link),0 .1px var(--bulma-link),.1px 0 var(--bulma-link),0 -0.1px var(--bulma-link)}.raku-webs .navbar-item.is-selected{color:var(--bulma-background)}@media screen and (min-width: 1024px){#MainText .content.listing{column-count:2}}@media screen and (max-width: 1023px){#MainText .content.listing{column-count:1}}#Camelia{max-height:2.75em}.navbar-tm-logo{position:absolute;z-index:35;top:.35rem;right:-0.35rem;font-size:.75rem}.raku-webs.index-section{margin-left:calc((var(--level) - 1)*1rem)}.raku-webs.index-section[data-index-level="1"]{text-shadow:1px 1px orange}.raku-webs.index-section>a.index-ref{margin-left:calc(var(--level)*1rem);display:block;width:auto;white-space:normal}.rakudoc-table{display:flex;align-content:center;flex-direction:column}.rakudoc-table .table-caption{margin-inline:auto;color:#a30031;font-size:1.375rem}@media screen and (min-width: 1024px){div.extended-para span.numpara,p span.numpara{position:absolute;text-indent:-3rem}}@media screen and (max-width: 1023px){div.extended-para span.numpara,p span.numpara{position:absolute;text-indent:-1.5rem}}@media(prefers-color-scheme: dark){.latex-equation>img{filter:invert(1) brightness(2)}}.raku-webs .hero-body{background:linear-gradient(180deg, #051A33 0.2%, #3F103A 1%, #9F0046 82.29%, #B3004F 100%);mix-blend-mode:normal}.raku-webs .hero-body .title,.raku-webs .hero-body .subtitle{color:#fff}.raku-webs .card-content .icon.is-large{height:6rem;width:6rem;font-size:96px}.raku-webs .links-block .icon.is-large{height:6rem;width:6rem;font-size:96px}.raku-webs .card .button{width:200px}.raku-webs .card-home{box-shadow:unset !important}
+</style>
+<style>/* bulma */
+label.chevronToggle{top:5rem;color:var(--bulma-info)}label.chevronToggle:hover{color:var(--bulma-warning-40)}label.chevronToggle input#navbar-toc-toggle{opacity:0;height:0;width:0}label.chevronToggle input#navbar-toc-toggle~.checkmark{display:inline-block;position:relative}label.chevronToggle input#navbar-toc-toggle~.checkmark.off{opacity:1;visibility:visible;width:1rem}label.chevronToggle input#navbar-toc-toggle~.checkmark.on,label.chevronToggle input#navbar-toc-toggle~.checkmark.on.overlap{opacity:0;visibility:hidden;width:0}label.chevronToggle input#navbar-toc-toggle:checked~.checkmark.off{opacity:0;visibility:hidden;width:0}label.chevronToggle input#navbar-toc-toggle:checked~.checkmark.on,label.chevronToggle input#navbar-toc-toggle:checked~.checkmark.on.overlap{opacity:1;visibility:visible;width:1rem}label.chevronToggle input#navbar-toc-toggle:checked~.checkmark.on.overlap{color:var(--bulma-danger);bottom:-1.75px}label.chevronToggle input#navbar-toc-toggle:hover~.tooltiptext.off{opacity:1;visibility:visible;width:10rem;left:0;right:0;padding:0 1px}label.chevronToggle input#navbar-toc-toggle:hover~.tooltiptext.on{opacity:0;visibility:hidden;width:0}label.chevronToggle input#navbar-toc-toggle:checked:hover~.tooltiptext.on{opacity:1;visibility:visible;width:10rem;left:0;right:0;padding:0 1px}label.chevronToggle input#navbar-toc-toggle:checked:hover~.tooltiptext.off{opacity:0;visibility:hidden;width:0}@media screen and (min-width: 769px){label.chevronToggle .on{top:.5rem;left:calc(25vw - 3.5rem)}label.chevronToggle .off{top:.5rem;left:-3.5rem}}@media screen and (max-width: 768px){label.chevronToggle .on,.off{top:-1.5rem;left:-3.5rem}}
+</style>
+<style>/* graphviz */
+div.graphviz{display:flex;justify-content:space-around;align-items:center;margin:auto;margin-bottom:1rem}.graphviz-error{display:flex;justify-content:space-around;align-items:center;color:red;font-weight:bold}.graphviz-error span.data{color:green}
+</style>
+<style>/* hilite */
+:root{--base-color-scalar: #2458a2;--base-color-array: #B01030;--base-color-hash: #00a693;--base-color-code: #209cee;--base-color-keyword: #008c7e;--base-color-operator: #1ca24f;--base-color-type: #d12c4c;--base-color-routine: #489fdc;--base-color-string: #369ec6;--base-color-string-delimiter: #1d90d2;--base-color-escape: #2b2b2b;--base-color-text: #2a2a2a;--base-color-comment: #4aa36c;--base-color-regex-special: #00996f;--base-color-regex-literal: #a52a2a;--base-color-regex-delimiter: #aa00aa;--base-color-doc-text: #2b9e71;--base-color-doc-markup: #d02b4c}.raku-code{position:relative;margin:0 1rem 0 1rem}.raku-code button.copy-code{cursor:pointer;opacity:0;padding:0 .25rem .25rem .25rem;position:absolute}.raku-code .code-caption{margin:0}.raku-code:hover button.copy-code{opacity:.5}.raku-code label{float:right;font-size:xx-small;font-style:italic;height:auto;padding-right:0}.raku-code pre.browser-hl{padding:7px}.raku-code .code-name{padding-top:.75rem;padding-left:1.25rem;font-weight:500}.raku-code pre{display:inline-block;overflow:scroll;width:100%}.raku-code .rakudoc-in-code{padding:1.25rem 1.5rem}.raku-code .section{padding:0rem}.raku-code .nohighlights{background:none;color:inherit}.raku-code .rainbow-name_scalar{color:var(--base-color-scalar);font-weight:500}.raku-code .rainbow-name_array{color:var(--base-color-array);font-weight:500}.raku-code .rainbow-name_hash{color:var(--base-color-hash);font-weight:500}.raku-code .rainbow-name_code{color:var(--base-color-code);font-weight:500}.raku-code .rainbow-keyword{color:var(--base-color-keyword);font-weight:500}.raku-code .rainbow-operator{color:var(--base-color-operator);font-weight:500}.raku-code .rainbow-type{color:var(--base-color-type);font-weight:500}.raku-code .rainbow-routine{color:var(--base-color-routine);font-weight:500}.raku-code .rainbow-string{color:var(--base-color-string);font-weight:500}.raku-code .rainbow-string_delimiter{color:var(--base-color-string-delimiter);font-weight:500}.raku-code .rainbow-escape{color:var(--base-color-escape);font-weight:500}.raku-code .rainbow-text{color:var(--base-color-text);font-weight:500}.raku-code .rainbow-comment{color:var(--base-color-comment);font-weight:500}.raku-code .rainbow-regex_special{color:var(--base-color-regex-special);font-weight:500}.raku-code .rainbow-regex_literal{color:var(--base-color-regex-literal);font-weight:500}.raku-code .rainbow-regex_delimiter{color:var(--base-color-regex-delimiter);font-weight:500}.raku-code .rainbow-rakudoc_text{color:var(--base-color-doc-text);font-weight:500}.raku-code .rainbow-rakudoc_markup{color:var(--base-color-doc-markup);font-weight:500}
+</style>
+<style>/* latexformula */
+div.latex-equation{display:flex;justify-content:space-between}div.latex-equation a.logo img{width:60%;border:gray solid 1px;border-radius:5px}span.latex-formula{display:inline-block;cursor:crosshair}span.latex-formula a{display:none}span.latex-formula:hover>a{display:inline-block;position:absolute;transform:translate(-3rem, -2rem);background:#faebd7}.latex-render-error{color:red;font-weight:bold}
+</style>
+<style>/* listfiles */
+.listf-container{display:flex;flex-direction:column;margin-bottom:1.25rem;font-size:1rem;font-weight:500;line-height:1.5;border:1px solid #ccc;border-bottom:5px solid #d9d9d9;box-shadow:0 2px 3px 0 rgba(0,0,0,.07)}.listf-container .listf-caption{display:flex;justify-content:center;background:#f2f2f2;border-bottom:1px solid #ccc;color:#83858d}.listf-container .listf-file{display:inline-block;border-top:1px solid #ccc;border-bottom:1px solid #ccc;break-inside:avoid}.listf-container .listf-file .listf-link{display:inline-block;width:100%;text-align:center;padding-top:.25rem}.listf-container .listf-file p.desc{padding-left:.5rem;padding-right:.5rem;margin-bottom:.25rem}.listf-error{color:red;font-size:xlarge}
+</style>
+<style>/* leafletmap */
+.leaflet-map-rakudoc{margin-bottom:1rem}.leaflet-map-rakudoc div{margin:auto}
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/default.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+crossorigin=""
+/>
+
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuzzysort@3.1.0/fuzzysort.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""
+></script>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/haskell.min.js"></script>
+<script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"
+></script>
+
+
+<script>    // Hilite-helper.js
+    document.addEventListener('DOMContentLoaded', function () {
+        // trigger the highlighter for non-Raku code
+        hljs.highlightAll();
+
+        // copy code block to clipboard adapted from solution at
+        // https://stackoverflow.com/questions/34191780/javascript-copy-string-to-clipboard-as-text-html
+        // if behaviour problems with different browsers add stylesheet code from that solution.
+        const copyButtons = Array.from(document.querySelectorAll('.copy-code'));
+        copyButtons.forEach( function( button ) {
+        var codeElement = button.nextElementSibling.nextElementSibling; // skip the label and get the div
+        button.addEventListener( 'click', function(insideButton) {
+            var container = document.createElement('div');
+            container.innerHTML = codeElement.innerHTML;
+                container.style.position = 'fixed';
+                container.style.pointerEvents = 'none';
+                container.style.opacity = 0;
+                document.body.appendChild(container);
+                window.getSelection().removeAllRanges();
+                var range = document.createRange();
+                range.selectNode(container);
+                window.getSelection().addRange(range);
+                document.execCommand("copy", false);
+                document.body.removeChild(container);
+            });
+        });
+    });
+</script>
+<script>/* UISwitcher generated vars */
+var dictionary = {
+  "en": {
+    "TOC": "Table of Contents",
+    "REPL-label-tip": "Enable a bar that evaluates Raku code",
+    "TypesText": "The core types (classes) available",
+    "MiscText": "Programs, Experimental",
+    "options-search-primary-off": "no",
+    "REPL-code-evaluate": "Evaluate Raku code",
+    "NoIndex": "No Index for this page",
+    "options-search-last-candidate": "The last search was:&nbsp;",
+    "License": "License",
+    "SyntaxText": "Searchable table of syn&shy;tactic terms",
+    "options-search-escape-text": "Exit this page by pressing &lt;Escape&gt;, or clicking on X or on the background.",
+    "ChatText": "IRC live chat",
+    "options-search-loose-off": "strict",
+    "options-search-loose-on": "loose",
+    "options-search-headings-off": "no",
+    "REPL-label-off": "Disabled",
+    "Types": "Types",
+    "Search": "Search",
+    "AboutText": "About this site",
+    "SearchCancel": "Click to close search box",
+    "FileSource": "Source file:&nbsp;",
+    "Index": "Index",
+    "Reference": "Reference",
+    "options-search-primary-on": "yes",
+    "Routines": "Routines",
+    "Intro": "Introduction",
+    "DataTableNoData": "No data found for kind:&nbsp;",
+    "ChangeTheme": "Change Theme",
+    "REPL-error": "Errors",
+    "About": "About",
+    "REPL-output": "Output",
+    "REPL-button-tip-on": "Click to toggle eval panel",
+    "REPL-label-on": "Enabled",
+    "SearchText": "Click to search",
+    "EditButtonModal": "This is an automatically generated page and cannot be edited directly. Text in Composite\npages, (URLs starting with 'routine' or 'syntax') can be edited by clicking on the\nlink labeled 'in context', and editing the text there.",
+    "SourceModified": "Source last modified:&nbsp;",
+    "TOC-open": "Open Table of contents for this page",
+    "options-search-headings-on": "yes",
+    "options-search-headings": "Headings",
+    "DocReport": "Report an issue with the document&shy;ation content",
+    "REPL-code": "Raku code",
+    "IntroText": "Getting started, Tutorials, Migration guides",
+    "Time": "Rendered at 00:47 UTC on 2026-07-17",
+    "TOC-close": "Close Table of contents for this page",
+    "UI_Switch": "Select language for user interface",
+    "options-search-extra-tip": "The search response can be shortened by excluding the extra information line",
+    "options-search-extra-off": "no",
+    "RakuHomeText": "Home page for com&shy;munity",
+    "RoutinesText": "Searchable table of routines",
+    "Detail": "Detail",
+    "options-search-fallback": "If all else fails, an item is added to use the Google search engine on the whole site",
+    "options-search-indexed-tip": "Search through all indexed items",
+    "options-search-loose": "Search type",
+    "options-search-indexed-on": "yes",
+    "Syntax": "Syntax",
+    "ReferenceText": "Fundamen&shy;tals, General reference",
+    "REPL-button-tip-off": "No connection to eval server",
+    "options-search-indexed-off": "no",
+    "SiteReport": "Report an issue with this site",
+    "options-search-loose-tip": "The search engine can perform a strict search (only the characters in the search box) or a loose search",
+    "EditButtonTip": "Edit this page. Modified: ",
+    "options-search-indexed": "Indexed",
+    "REPL-code-tip": "Type some Raku code, then type <Shift>+<Enter> or click [sync] icon to evaluate",
+    "Chat": "Chat",
+    "SiteIssue": "Site problem",
+    "DocIssue": "Content problem",
+    "options-search-composite": "Composite",
+    "Operators": "Operators",
+    "options-search-extra": "Extra info",
+    "options-search-headings-tip": "Search through headings in all web-pages",
+    "options-search-extra-on": "yes",
+    "OperatorsText": "Searchable table of operators",
+    "NoTOC": "No Table of contents for this page",
+    "EditButtonModalOff": "Exit this popup by pressing &lt;Escape&gt;, or clicking on X or on the background.",
+    "REPL-label": "Raku bar",
+    "RakuHome": "Raku<sup>®</sup>",
+    "LangName": "English",
+    "options-search-composite-tip": "Search in the names of composite pages, which combine similar information from the main web pages",
+    "Misc": "Miscellaneous",
+    "options-search-composite-off": "no",
+    "options-search-primary": "Primary",
+    "options-search-primary-tip": "Search through the names of the main web pages",
+    "DataTableError": "No website data found",
+    "More": "More",
+    "options-search-composite-on": "yes"
+  },
+  "nl": {
+    "RakuHome": "Raku<sup>®</sup>",
+    "options-search-headings-tip": "Zoek door koppen op alle webpagina's",
+    "AboutText": "Over deze site",
+    "OperatorsText": "Doorzoek&shy;bare tabel met oper&shy;atoren",
+    "REPL-label": "Raku-balk",
+    "ReferenceText": "Fundamentals, Alge&shy;mene referentie",
+    "DataTableError": "Geen websitegegevens gevonden",
+    "FileSource": "Bronbestand:&nbsp;",
+    "Index": "Index",
+    "options-search-extra": "Extra info",
+    "Types": "Typen",
+    "More": "Meer",
+    "options-search-composite-tip": "Zoek in de namen van samengestelde pagina's, die vergelijkbare informatie van de belangrijkste webpagina's combineren",
+    "TOC-open": "Open Inhoudsopgave voor deze pagina",
+    "options-search-headings": "Koppen",
+    "SearchText": "Klik om te zoeken",
+    "EditButtonTip": "Bewerk deze pagina. Gewijzigd:",
+    "RoutinesText": "Door&shy;zoek&shy;bare tabel met routines",
+    "TypesText": "De beschik&shy;bare kerntypen (klassen)",
+    "options-search-headings-on": "ja",
+    "REPL-output": "Uitvoer",
+    "Reference": "Referentie",
+    "DocIssue": "Contentprobleem",
+    "RakuHomeText": "Startpagina voor community",
+    "Intro": "Inleiding",
+    "options-search-escape-text": "Verlaat deze pagina door op &lt;Escape&gt; te drukken, of door op X of op de achtergrond te klikken.",
+    "options-search-indexed-tip": "Zoek door alle geïndexeerde items",
+    "REPL-code-evaluate": "Evalueer Raku-code",
+    "options-search-loose": "Zoektype",
+    "SiteIssue": "Siteprobleem",
+    "REPL-button-tip-off": "Geen verbinding met de eval-server",
+    "REPL-label-on": "Ingeschakeld",
+    "About": "Over",
+    "options-search-primary-off": "nee",
+    "Chat": "Chat",
+    "options-search-headings-off": "nee",
+    "options-search-composite-on": "ja",
+    "Syntax": "Syntaxis",
+    "ChatText": "IRC live chat",
+    "Routines": "Routines",
+    "DataTableNoData": "Geen gegevens gevonden voor soort:&nbsp;",
+    "options-search-primary-on": "ja",
+    "MiscText": "Programma's, Experi&shy;menteel",
+    "EditButtonModal": "Dit is een automatisch gegenereerde pagina en kan niet rechtstreeks worden bewerkt. Tekst in samengestelde\npagina's (URL's die beginnen met 'routine' of 'syntax') kan worden bewerkt door op de\nlink met het label 'in context' te klikken en de tekst daar te bewerken.",
+    "SyntaxText": "Doorzoek&shy;bare tabel met syntac&shy;tische termen",
+    "License": "Licentie",
+    "options-search-fallback": "Als al het andere faalt, wordt een item toegevoegd om de Google-zoekmachine op de hele site te gebruiken",
+    "EditButtonModalOff": "Verlaat deze pop-up door op &lt;Escape&gt; te drukken, of door op X of op de achtergrond te klikken.",
+    "options-search-indexed": "Geïndexeerd",
+    "Operators": "Operators",
+    "REPL-label-tip": "Een balk inschakelen die Raku-code evalueert",
+    "options-search-extra-on": "ja",
+    "options-search-extra-off": "nee",
+    "ChangeTheme": "Thema wijzigen",
+    "options-search-primary-tip": "Zoeken door de namen van de belangrijkste webpagina's",
+    "options-search-loose-off": "strikt",
+    "options-search-last-candidate": "De laatste zoekopdracht was:&nbsp;",
+    "REPL-label-off": "Uitgeschakeld",
+    "options-search-loose-on": "los",
+    "options-search-loose-tip": "De zoekmachine kan een strikte zoekopdracht uitvoeren (alleen de tekens in het zoekvak) of een losse zoekopdracht",
+    "NoTOC": "Geen inhoud&shy;sopgave voor deze pagina",
+    "SearchCancel": "Klik om het zoekvak te sluiten",
+    "options-search-indexed-off": "nee",
+    "REPL-error": "Fouten",
+    "REPL-button-tip-on": "Klik om het eval-paneel in of uit te schakelen",
+    "REPL-code-tip": "Typ wat Raku-code en typ vervolgens <Shift>+<Enter> of klik op het [sync]-pictogram om te evalueren",
+    "IntroText": "Aan de slag, Tutorials, Migratie&shy;handle&shy;idin&shy;gen",
+    "REPL-code": "Raku-code",
+    "options-search-composite": "Samengesteld",
+    "options-search-extra-tip": "Het zoekresultaat kan worden ingekort door de extra informatieregel uit te sluiten",
+    "Search": "Zoeken",
+    "options-search-composite-off": "nee",
+    "SiteReport": "Meld een probleem met deze site",
+    "Detail": "Details",
+    "Time": "Gerenderd at 00:47 UTC on 2026-07-17",
+    "Misc": "Diversen",
+    "TOC": "Inhoudsop&shy;gave",
+    "DocReport": "Meld een probleem met de document&shy;atie-inhoud",
+    "UI_Switch": "Selecteer taal voor gebruikersinterface",
+    "SourceModified": "Bron laatst gewijzigd:&nbsp;",
+    "NoIndex": "Geen index voor deze pagina",
+    "options-search-primary": "Primair",
+    "LangName": "Nederlands",
+    "TOC-close": "Sluit Inhoudsopgave voor deze pagina",
+    "options-search-indexed-on": "ja"
+  },
+  "ja": {
+    "ReferenceText": "基礎、一般リファレンス",
+    "options-search-headings-on": "はい",
+    "RakuHomeText": "コミュニティのホームページ",
+    "options-search-primary-on": "はい",
+    "options-search-last-candidate": "最後の検索以前のバージョン:&nbsp;",
+    "RakuHome": "Raku<sup>®</sup>",
+    "LangName": "日本語",
+    "Operators": "Operators",
+    "Reference": "参照",
+    "REPL-label-tip": "Raku コードを評価するバーを有効にする",
+    "REPL-output": "出力",
+    "EditButtonTip": "このページを編集します。 変更:",
+    "REPL-error": "エラー",
+    "Routines": "ルーチン",
+    "REPL-label": "Raku バー",
+    "DataTableNoData": "種類: のデータが見つかりません",
+    "Misc": "その他",
+    "SyntaxText": "構文用語の検索可能な表",
+    "DocReport": "ドキュメントの内容に関する問題の報告",
+    "OperatorsText": "演算子の検索可能な表",
+    "options-search-primary-off": "いいえ",
+    "options-search-headings": "見出し",
+    "options-search-composite-tip": "メインのウェブページから類似の情報を組み合わせた複合ページの名前で検索します",
+    "Intro": "概要",
+    "REPL-code": "Raku コード",
+    "SourceModified": "ソースの最終更新日:&nbsp;",
+    "REPL-label-off": "無効",
+    "Time": "00:47 UTC に 2026-07-17 にレンダリングされました",
+    "REPL-code-evaluate": "Raku コードを評価",
+    "More": "その他",
+    "TOC-close": "このページの目次を閉じる",
+    "TypesText": "利用可能なコア タイプ (クラス)",
+    "EditButtonModalOff": "このポップアップを終了するには、&lt;Escape&gt; を押すか、X または背景をクリックします。",
+    "options-search-indexed-off": "いいえ",
+    "options-search-indexed": "インデックス済み",
+    "options-search-fallback": "他のすべてが失敗した場合は、サイト全体で Google 検索エンジンを使用するための項目が追加されます",
+    "options-search-extra-on": "はい",
+    "FileSource": "ソース ファイル:&nbsp;",
+    "EditButtonModal": "これは自動生成されたページであり、直接編集することはできません。複合ページ (「routine」または「syntax」で始まる URL) 内のテキストは、「in context」というラベルの付いたリンクをクリックして、そこでテキストを編集することで編集できます。",
+    "License": "ライセンス",
+    "options-search-loose-tip": "検索エンジンは厳密な検索 (検索ボックス内の文字のみ) または緩い検索を実行できます",
+    "SearchText": "クリックして検索",
+    "options-search-indexed-on": "はい",
+    "AboutText": "このサイトについて",
+    "options-search-primary": "プライマリ",
+    "MiscText": "プログラム、実験的",
+    "TOC-open": "このページの目次を開く",
+    "options-search-loose": "検索タイプ",
+    "Index": "インデックス",
+    "Search": "検索",
+    "UI_Switch": "ユーザー インターフェースの言語を選択",
+    "options-search-extra-off": "いいえ",
+    "SiteReport": "このサイトに関する問題の報告",
+    "NoIndex": "このページにはインデックスがありません",
+    "Syntax": "構文",
+    "ChatText": "IRC ライブ チャット",
+    "options-search-extra": "追加情報",
+    "options-search-extra-tip": "追加情報行を除外することで検索応答を短縮できます",
+    "options-search-loose-off": "厳格",
+    "options-search-escape-text": "このページを終了するには、&lt;Escape&gt; を押すか、X または背景をクリックします。",
+    "Types": "タイプ",
+    "options-search-headings-tip": "すべてのウェブページの見出しを検索します",
+    "Detail": "詳細",
+    "SiteIssue": "サイトの問題",
+    "options-search-loose-on": "緩い",
+    "RoutinesText": "ルーチンの検索可能な表",
+    "REPL-code-tip": "Raku コードを入力してから、<Shift>+<Enter> を押すか、[同期] アイコンをクリックして評価する",
+    "DocIssue": "コンテンツの問題",
+    "TOC": "目次",
+    "SearchCancel": "クリックして検索ボックスを閉じる",
+    "options-search-primary-tip": "メインの Web ページの名前を検索します",
+    "NoTOC": "このページには目次がありません",
+    "options-search-composite": "複合",
+    "REPL-button-tip-on": "クリックして評価パネルを切り替える",
+    "options-search-composite-off": "いいえ",
+    "REPL-label-on": "有効",
+    "options-search-composite-on": "はい",
+    "IntroText": "はじめに、チュートリアル、移行ガイド",
+    "Chat": "チャット",
+    "options-search-headings-off": "いいえ",
+    "options-search-indexed-tip": "すべてのインデックス済み項目を検索します",
+    "ChangeTheme": "テーマの変更",
+    "REPL-button-tip-off": "評価サーバーに接続されていません",
+    "DataTableError": "ウェブサイトのデータが見つかりません",
+    "About": "概要"
+  },
+  "cy": {
+    "options-search-composite-off": "nac oes",
+    "LangName": "Cymraeg",
+    "EditButtonTip": "Golygu'r dudalen hon. Wedi'i addasu:",
+    "Search": "Chwilio",
+    "REPL-error": "Gwallau",
+    "RakuHome": "Raku<sup>®</sup>",
+    "options-search-fallback": "Os bydd popeth arall yn methu, ychwanegir eitem i ddefnyddio peiriant chwilio Google ar y wefan gyfan",
+    "options-search-primary-on": "oes",
+    "Routines": "Rheolau",
+    "AboutText": "Am y wefan hon",
+    "SearchCancel": "Cliciwch i gau'r blwch chwilio",
+    "TOC": "Tabl Cynnwys",
+    "REPL-label-on": "Galluogi",
+    "options-search-composite-on": "oes",
+    "SyntaxText": "Tabl chwil&shy;iadwy o dermau cystraw&shy;ennol",
+    "options-search-composite": "Cyfansawdd",
+    "EditButtonModalOff": "Gadael y ffenestr naid drwy wasgu &lt;Escape&gt;, neu glicio ar X neu ar y cefndir.",
+    "REPL-button-tip-off": "Dim cysylltiad â gweinydd eval",
+    "options-search-extra": "Gwybodaeth ychwanegol",
+    "options-search-loose-off": "llym",
+    "options-search-indexed-on": "oes",
+    "options-search-indexed-tip": "Chwilio drwy'r holl eitemau sydd wedi'u mynegeio",
+    "DocReport": "Adrodd am broblem gyda chynnwys y ddog&shy;fennaeth",
+    "options-search-loose-tip": "Gall y peiriant chwilio wneud chwiliad llym (dim ond y nodau yn y blwch chwilio) neu chwiliad rhydd",
+    "OperatorsText": "Tabl o weith&shy;redwyr chwiliadwy",
+    "IntroText": "Cychwyn arni, Tiwtor&shy;ialau, can&shy;llawiau mudo",
+    "options-search-loose-on": "rhydd",
+    "ChatText": "Sgwrs fyw IRC",
+    "UI_Switch": "Dewis iaith ar gyfer rhyngwyneb defnyddiwr",
+    "About": "Amdanom",
+    "DocIssue": "Problem cynnwys",
+    "MiscText": "Rhaglenni, Arbrofol",
+    "RakuHomeText": "Tudalen gartref i'r gymuned",
+    "SourceModified": "Ffynhonn&shy;ell a addas&shy;wyd ddiwethaf:&nbsp;",
+    "options-search-headings-tip": "Chwilio trwy benawdau ym mhob tudalen we",
+    "options-search-headings-on": "oes",
+    "Time": "Wedi'i rendro am 00:47 UTC ar 2026-07-17",
+    "More": "Mwy",
+    "REPL-code": "Cod Raku",
+    "EditButtonModal": "Mae hon yn dudalen a gynhyrchir yn awtomatig ac ni ellir ei golygu'n uniongyrchol. Gellir golygu testun mewn tudalennau\ncyfansawdd, (URLs yn dechrau gyda 'routine' neu 'cystrawen') trwy glicio ar y\ndolen sydd wedi'i labelu 'yn y cyd-destun', a golygu'r testun yno.\n",
+    "SiteReport": "Rhoi gwybod am broblem gyda'r wefan hon",
+    "Intro": "Cyflwyniad",
+    "ChangeTheme": "Newid Thema",
+    "REPL-code-tip": "Teipiwch rai cod Raku, yna teipiwch <Shift>+<Enter> neu cliciwch ar yr eicon [cysoni] i werthuso",
+    "options-search-composite-tip": "Chwilio yn enwau tudalennau cyfansawdd, sy'n cyfuno gwybodaeth debyg o'r prif dudalennau gwe",
+    "Syntax": "Cystrawen",
+    "Reference": "Cyfeirnod",
+    "REPL-label-off": "anabl",
+    "options-search-indexed-off": "nac oes",
+    "TOC-close": "Cau Tabl cynnwys ar gyfer y dudalen hon",
+    "DataTableNoData": "Ni chanfuwyd data ar gyfer math:&nbsp;",
+    "options-search-headings-off": "nac oes",
+    "options-search-escape-text": "Gadael y dudalen hon drwy wasgu &lt;Escape&gt;, neu glicio ar X neu ar y cefndir.",
+    "REPL-label": "Bar Raku",
+    "REPL-code-evaluate": "Gwerthuso cod Raku",
+    "Detail": "Manylion",
+    "SiteIssue": "Problem safle",
+    "TOC-open": "Agor Tabl cynnwys ar gyfer y dudalen hon",
+    "REPL-output": "Allbwn",
+    "RoutinesText": "Tabl chwil&shy;iadwy o arferion",
+    "REPL-label-tip": "Galluogi bar sy'n gwerthuso cod Raku",
+    "NoIndex": "Dim Mynegai ar gyfer y dudalen hon",
+    "options-search-indexed": "Mynegai",
+    "options-search-headings": "Penawdau",
+    "License": "Trwydded",
+    "options-search-primary-off": "nac oes",
+    "TypesText": "Y mathau craidd (dosbarth&shy;iadau)",
+    "ReferenceText": "Hanfodion, Cyfeiriad Cyffred&shy;inol",
+    "options-search-extra-tip": "Gellir byrhau'r ymateb chwilio trwy eithrio'r llinell gwybodaeth ychwanegol",
+    "NoTOC": "Dim Tabl cynnwys ar gyfer y dudalen hon",
+    "Operators": "Operators",
+    "SearchText": "Cliciwch i chwilio",
+    "REPL-button-tip-on": "Cliciwch i doglo panel eval",
+    "options-search-primary": "Cynradd",
+    "DataTableError": "Ni chanfuwyd data gwefan",
+    "Index": "Mynegai",
+    "options-search-primary-tip": "Chwilio trwy enwau'r prif dudalennau gwe",
+    "options-search-last-candidate": "Y chwiliad diwethaf oedd:&nbsp;",
+    "Chat": "Sgwrsio",
+    "FileSource": "Ffeil ffyn&shy;honnell:&nbsp;",
+    "Types": "Mathau",
+    "options-search-loose": "Math o chwiliad",
+    "options-search-extra-on": "oes",
+    "Misc": "Amrywiol",
+    "options-search-extra-off": "nac oes"
+  },
+  "ua": {
+    "About": "Про",
+    "FileSource": "S вихідний файл:&nbsp;",
+    "REPL-label": "Раку бар",
+    "RakuHome": "Raku<sup>®</sup>",
+    "DocIssue": "Проблема зі змістом",
+    "OperatorsText": "Пошукова таблиця операторів",
+    "options-search-composite": "Композит",
+    "LangName": "Українська",
+    "options-search-extra-off": "немає",
+    "options-search-composite-on": "так",
+    "options-search-composite-off": "немає",
+    "Intro": "Вступ",
+    "Time": "Виведено о 00:47 UTC на 2026-07-17",
+    "options-search-fallback": "Якщо нічого не допомагає, додається елемент для використання пошукової системи Google на всьому сайті",
+    "options-search-indexed": "Індексований",
+    "Chat": "Чат",
+    "DataTableNoData": "Немає даних для типу:&nbsp;",
+    "SyntaxText": "Пошукова таблиця син&shy;такс&shy;ичних термінів",
+    "options-search-indexed-tip": "Шукати по всіх проіндексованих елементах",
+    "options-search-indexed-off": "немає",
+    "EditButtonModal": "Це автоматично створена сторінка, і її не можна редагувати напряму. Текст на складених\nсторінках (URL-адреси, що починаються з \"програми\" або \"синтаксису\") можна редагувати, клацнувши\nпосилання з позначкою \"в контексті\" та відредагувавши там текст.",
+    "RoutinesText": "Пошукова таблиця процедур",
+    "REPL-button-tip-off": "Немає підключення до сервера eval",
+    "options-search-loose-tip": "Пошукова система може здійснювати строгий пошук (тільки за символами у вікні пошуку) або вільний пошук",
+    "options-search-extra": "Додаткова інформація",
+    "SourceModified": "Джерело востаннє змінено:&nbsp;",
+    "Misc": "Різне",
+    "options-search-headings-off": "немає",
+    "SearchText": "Натисніть для пошуку",
+    "TypesText": "Доступні основні типи (класи)",
+    "options-search-primary-on": "так",
+    "options-search-last-candidate": "Останній пошук:&nbsp;",
+    "Reference": "Довідка",
+    "MiscText": "Програми, експери&shy;ментальні",
+    "UI_Switch": "Виберіть мову інтерфейсу користувача",
+    "TOC": "Зміст",
+    "SearchCancel": "Натисніть, щоб закрити вікно пошуку",
+    "DocReport": "Повідомити про проб&shy;лему із вмістом доку&shy;ментації",
+    "REPL-code": "Код Раку",
+    "options-search-composite-tip": "Пошук у назвах складених сторінок, які поєднують подібну інформацію з основних веб-сторінок",
+    "REPL-label-tip": "Увімкнути панель, яка оцінює код Raku",
+    "EditButtonModalOff": "Вийдіть із цього спливаючого вікна, натиснувши &lt;Escape&gt; або клацнувши X чи фон.",
+    "Search": "Пошук",
+    "DataTableError": "Дані веб-сайту не знайдено",
+    "SiteIssue": "Проблема сайту",
+    "options-search-loose-off": "строгий",
+    "options-search-headings-on": "так",
+    "options-search-primary-off": "немає",
+    "TOC-close": "Закрити зміст цієї сторінки",
+    "Types": "Типи",
+    "ReferenceText": "Основи, загальні довідники",
+    "REPL-label-off": "Відключено",
+    "AboutText": "Про цей сайт",
+    "REPL-code-tip": "Введіть код Raku, потім натисніть <Shift>+<Enter> або клацніть піктограму [синхронізувати], щоб оцінити",
+    "options-search-headings": "Заголовки",
+    "Routines": "Рутини",
+    "TOC-open": "Відкрити зміст цієї сторінки",
+    "options-search-extra-on": "так",
+    "options-search-loose-on": "пухкий",
+    "options-search-extra-tip": "Пошукову відповідь можна скоротити, виключивши рядок додаткової інформації",
+    "options-search-indexed-on": "так",
+    "REPL-error": "Помилки",
+    "REPL-code-evaluate": "Оцінити код Raku",
+    "Index": "Індекс",
+    "REPL-button-tip-on": "Натисніть, щоб перемкнути панель оцінки",
+    "More": "Більше",
+    "Operators": "Operators",
+    "EditButtonTip": "Редагувати цю сторінку. Змінено:",
+    "SiteReport": "Повідомити про проблему з цим сайтом",
+    "REPL-output": "Вихід",
+    "ChangeTheme": "Змінити тему",
+    "NoTOC": "Немає змісту цієї сторінки",
+    "REPL-label-on": "Увімкнено",
+    "options-search-loose": "Тип пошуку",
+    "options-search-headings-tip": "Пошук за заголовками на всіх веб-сторінках",
+    "options-search-escape-text": "Вийдіть із цієї сторінки, натиснувши &lt;Escape&gt;, або клацнувши X або на тлі.",
+    "options-search-primary-tip": "Пошук за назвами головних веб-сторінок",
+    "ChatText": "Живий чат IRC",
+    "Detail": "Деталі",
+    "RakuHomeText": "Домашня сторінка для спільноти",
+    "options-search-primary": "Первинний",
+    "NoIndex": "Немає індексу для цієї сторінки",
+    "License": "Ліцензія",
+    "Syntax": "Синтаксис",
+    "IntroText": "Початок роботи, навчальні посібники, посібники з міграції"
+  },
+  "fr": {
+    "TypesText": "Les types de base (classes) disponibles",
+    "options-search-loose": "Type de recherche",
+    "options-search-headings-on": "oui",
+    "options-search-headings-off": "non",
+    "options-search-escape-text": "Quitter cette page en appuyant sur &lt;Echap&gt;, ou en cliquant sur X ou sur l'arrière-plan.",
+    "REPL-label": "Barre Raku",
+    "About": "À propos",
+    "NoIndex": "Aucun index pour cette page",
+    "EditButtonModalOff": "Quittez cette fenêtre contextuelle en appuyant sur &lt;Echap&gt;, ou en cliquant sur X ou sur l'arrière-plan.",
+    "REPL-code-evaluate": "Évaluer le code Raku",
+    "REPL-code-tip": "Tapez du code Raku, puis tapez <Maj>+<Entrée> ou cliquez sur l'icône [sync] pour évaluer",
+    "Reference": "Référence",
+    "options-search-extra-tip": "La réponse à la recherche peut être raccourcie en excluant la ligne d'informations supplémentaires",
+    "options-search-indexed-tip": "Rechercher dans tous les éléments indexés",
+    "options-search-extra-off": "non",
+    "options-search-extra": "Informations supplémentaires",
+    "REPL-button-tip-on": "Cliquez pour basculer le panneau d'évaluation",
+    "LangName": "Français",
+    "REPL-button-tip-off": "Aucune connexion au serveur d'évaluation",
+    "EditButtonTip": "Modifier cette page. Modifié:",
+    "options-search-primary-off": "non",
+    "options-search-composite-on": "oui",
+    "ChatText": "Chat en direct IRC",
+    "SearchCancel": "Cliquez pour fermer la boîte de recherche",
+    "options-search-primary-tip": "Rechercher parmi les noms des pages Web principales",
+    "REPL-label-tip": "Activer une barre qui évalue le code Raku",
+    "REPL-label-off": "Désactivé",
+    "RakuHomeText": "Page d'accueil de la com&shy;munauté",
+    "options-search-extra-on": "oui",
+    "Chat": "Chat",
+    "ReferenceText": "Principes fonda&shy;mentaux, Référence générale",
+    "NoTOC": "Aucune table des matières pour cette page",
+    "More": "Plus",
+    "SiteIssue": "Problème de site",
+    "REPL-label-on": "Activé",
+    "Misc": "Divers",
+    "options-search-loose-tip": "Le moteur de recherche peut effectuer une recherche stricte (uniquement les caractères de la zone de recherche) ou une recherche libre",
+    "FileSource": "Fichier source:&nbsp;",
+    "Detail": "Détail",
+    "DocReport": "Signaler un problème avec le contenu de la docu&shy;men&shy;tation",
+    "options-search-fallback": "Si tout le reste échoue, un élément est ajouté pour utiliser le moteur de recherche Google sur l'ensemble du site",
+    "DataTableError": "Aucune donnée de site Web trouvée",
+    "RoutinesText": "Tableau de routines con&shy;sultable",
+    "options-search-composite-tip": "Rechercher dans les noms de pages composites, qui combinent des informations similaires provenant des pages Web principales",
+    "options-search-composite-off": "non",
+    "TOC": "Table des matières",
+    "DataTableNoData": "Aucune donnée trouvée pour le type :&nbsp;",
+    "REPL-code": "Code Raku",
+    "SyntaxText": "Tableau de recherche des termes syntaxiques",
+    "TOC-close": "Fermer la table des matières de cette page",
+    "MiscText": "Programmes, Expérimental",
+    "SiteReport": "Signaler un problème avec ce site",
+    "DocIssue": "Problème de contenu",
+    "SearchText": "Cliquer pour rechercher",
+    "options-search-last-candidate": "La dernière recherche était:&nbsp;",
+    "options-search-primary-on": "oui",
+    "ChangeTheme": "Changer de thème",
+    "IntroText": "Démarrage, Tutoriels, Guides de migration",
+    "options-search-composite": "Composite",
+    "REPL-error": "Erreurs",
+    "Search": "Rechercher",
+    "Types": "Types",
+    "License": "Licence",
+    "options-search-indexed-off": "non",
+    "Time": "Rendu à 00:47 UTC à 2026-07-17",
+    "Routines": "Routines",
+    "options-search-indexed": "Indexé",
+    "RakuHome": "Raku<sup>®</sup>",
+    "options-search-indexed-on": "oui",
+    "OperatorsText": "Tableau de recherche des opérateurs",
+    "Intro": "Introduction",
+    "Operators": "Operators",
+    "options-search-primary": "Principal",
+    "Index": "Index",
+    "AboutText": "À propos de ce site",
+    "TOC-open": "Ouvrir la table des matières de cette page",
+    "options-search-loose-on": "lâche",
+    "options-search-headings-tip": "Rechercher dans les titres de toutes les pages Web",
+    "Syntax": "Syntaxe",
+    "UI_Switch": "Sélectionner la langue de l'interface utilisateur",
+    "SourceModified": "Source dernière modification:&nbsp;",
+    "REPL-output": "Sortie",
+    "options-search-headings": "Titres",
+    "EditButtonModal": "Il s'agit d'une page générée automatiquement et ne peut pas être modifiée directement. Le texte des pages composites (URL commençant par 'routine' ou 'syntax') peut être modifié en cliquant sur le lien étiqueté 'dans le contexte' et en modifiant le texte à cet endroit.",
+    "options-search-loose-off": "strict"
+  }
+};
+var def_canon = 'en';
+</script>
+<script>// BulmaHelper.js
+var change_theme = function (theme) {
+    document.querySelector('html').className = '';
+    document.querySelector('html').classList.add('theme-' + theme);
+};
+var persisted_theme = function () { return localStorage.getItem('theme') };
+var persist_theme = function (theme) { localStorage.setItem('theme', theme) };
+
+var persisted_tocState = function () { return localStorage.getItem('tocOpen') };
+var persist_tocState = function (tocState) { localStorage.setItem('tocOpen', tocState ) };
+
+var originalIndex;
+var originalTOC;
+var matchTocState = function ( state ) {
+    if (document.getElementById("TOC") == null) { return };
+    if ( state ) {
+        document.getElementById("TOC").classList.remove('is-hidden');
+        document.getElementById("page-nav").classList.remove('is-hidden');
+        document.getElementById("mobile-nav").classList.remove('is-hidden');
+        document.getElementById("MainText").classList.add('is-three-quarters');
+        document.getElementById("MainText").classList.add('column');
+        document.getElementById("MainText").classList.remove('px-5');
+        persist_tocState( 'open');
+    }
+    else {
+        document.getElementById("TOC").classList.add('is-hidden');
+        document.getElementById("page-nav").classList.add('is-hidden');
+        document.getElementById("mobile-nav").classList.add('is-hidden');
+        document.getElementById("MainText").classList.remove('is-three-quarters');
+        document.getElementById("MainText").classList.remove('column');
+        document.getElementById("MainText").classList.add('px-5');
+        persist_tocState( 'closed' );
+    }
+}
+var setTocState = function ( state ) {
+    if (document.getElementById("TOC") == null) { return };
+    if ( state === 'closed') {
+        document.getElementById("TOC").classList.add('is-hidden');
+        document.getElementById("page-nav").classList.add('is-hidden');
+        document.getElementById("mobile-nav").classList.add('is-hidden');
+        document.getElementById("MainText").classList.remove('is-three-quarters');
+        document.getElementById("MainText").classList.remove('column');
+        document.getElementById("MainText").classList.add('px-5');
+        document.getElementById("navbar-toc-toggle").checked = false;
+    }
+    else {
+        document.getElementById("TOC").classList.remove('is-hidden');
+        document.getElementById("page-nav").classList.remove('is-hidden');
+        document.getElementById("mobile-nav").classList.remove('is-hidden');
+        document.getElementById("MainText").classList.add('is-three-quarters');
+        document.getElementById("MainText").classList.add('column');
+        document.getElementById("MainText").classList.remove('px-5');
+        document.getElementById("navbar-toc-toggle").checked = true;
+    }
+};
+window.addEventListener('load', function () {
+    // initialise if localStorage is set
+    let theme = persisted_theme();
+    if ( theme == null ) {
+        theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        change_theme(theme);
+        persist_theme(theme);
+    }
+    let tocState = persisted_tocState();
+    if ( tocState == null ) {
+        setTocState( 'open' )
+    }
+    else {
+        setTocState( tocState );
+        persist_tocState( tocState );
+    }
+    // Add listeners
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+            el.addEventListener('click', () => {
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+            });
+        });
+    };
+    // initialise window state
+    document.getElementById('changeTheme').addEventListener('click', function () {
+        let theme = persisted_theme() === 'light' ? 'dark' : 'light';
+        change_theme(theme);
+        persist_theme(theme);
+    });
+    if (document.getElementById("navbar-toc-toggle") !== null ) {
+        document.getElementById("navbar-toc-toggle").addEventListener('change', function() {
+            matchTocState( this.checked )
+        });
+        document.getElementById('toc-tab').addEventListener('click', function () { swap_toc_index('','toc') });
+        document.getElementById('index-tab').addEventListener('click', function () { swap_toc_index('','index') });
+        document.getElementById('mtoc-tab').addEventListener('click', function () { swap_toc_index('m','toc') });
+        document.getElementById('mindex-tab').addEventListener('click', function () { swap_toc_index('m','index') });
+        originalTOC = document.getElementById('toc-menu').getHTML();
+        originalIndex = document.getElementById('index-menu').getHTML();
+        document.getElementById("page-nav-search").addEventListener('keyup', function (event) {
+            filtersearch(event, 'toc-menu', 'index-menu', 'page-nav')
+        });
+        document.getElementById("mobile-nav-search").addEventListener('keyup', function (event) {
+            filtersearch(event, 'mtoc-menu', 'mindex-menu', 'mobile-nav')
+        });
+    }
+});
+function filtersearch(event, toc,index,nav) {
+    document.getElementById(toc).innerHTML = originalTOC;
+    document.getElementById(index).innerHTML = originalIndex;
+    var searchText = event.srcElement.value.toLowerCase();
+    if (searchText.length === 0) return;
+    var menuListElements = document.getElementById(nav).querySelectorAll('.toc-item, .index-section');
+    var matchingListElements = Array.from(menuListElements).filter(function (item) {
+        var el;
+        if ( item.classList.contains('toc-item') ) {
+            el = item.querySelector('a');
+        } else {
+            el = item.querySelector('.index-entry')
+        }
+        var listItemHTML = el.innerHTML;
+        var fuzzyRes = fuzzysort.go(searchText, [listItemHTML])[0];
+        if (fuzzyRes === undefined || fuzzyRes.score <= 0) {
+            return false;
+        }
+        var res = fuzzyRes.highlight('<b>','</b>');
+        if (res !== null) {
+            el.innerHTML = res;
+            return true;
+        } else {
+            return false;
+        }
+    });
+    menuListElements.forEach(function(elem){elem.classList.add('is-hidden')});
+    matchingListElements.forEach(function(elem){elem.classList.remove('is-hidden')});
+};
+function swap_toc_index(div, activate) {
+    let disactivate = (activate == 'toc') ? 'index' : 'toc';
+    document.getElementById( div + activate + '-tab').classList.add('is-active');
+    document.getElementById( div + disactivate + '-menu').classList.add('is-hidden');
+    document.getElementById( div + disactivate + '-tab').classList.remove('is-active');
+    document.getElementById( div + activate + '-menu').classList.remove('is-hidden');
+}
+</script>
+<script>/* UISwitcher */
+var UILang;
+var uiselectors;
+var token_spans;
+var uilang_persisted = function () { return localStorage.getItem('ui_lang');};
+var persist_uilang = function ( uilang ) { localStorage.setItem( 'ui_lang', uilang );};
+document.addEventListener('DOMContentLoaded', function () {
+    UILang = uilang_persisted();
+    if ( UILang == null ) {
+        UILang = def_canon;
+    }
+    makeUISelector( UILang ); // comes before setUI as it has a label that needs setting
+    uiselectors = document.querySelectorAll('.UISelection'); // uiselectors used in setUI
+    token_spans = document.querySelectorAll('.Elucid8-ui');
+    setUI( UILang );
+    uiselectors.forEach( function (elem) {
+        elem.addEventListener('click', function( event ) {
+            newLang = event.target.getAttribute('data-lang');
+            setUI( newLang );
+            persist_uilang( newLang );
+        })
+    })
+});
+function setUI( newLang ) {
+    token_spans.forEach( function (elem) {
+        token = elem.getAttribute('data-UIToken');
+        expr = dictionary[newLang][token];
+        if ( expr == null ) { expr = dictionary[def_canon][token] };
+        elem.innerHTML = expr;
+    });
+    uiselectors.forEach( function (rem) {
+        if ( rem.getAttribute('data-lang') == newLang ) {
+            rem.classList.add('is-selected')
+        }
+        else {
+            rem.classList.remove('is-selected');
+        }
+    })
+};
+function makeUISelector( initial ) {
+    elem = document.getElementById('Elucid8_ui-switch-contents');
+    var options = '';
+    Object.keys(dictionary).forEach(function(key) {
+        isSel = key == def_canon ? ' is-selected' : '';
+        options = options +
+            '<li><a class="navbar-item UISelection' + isSel + '"' +
+            'data-lang="' + key + '">' + dictionary[key]['LangName'] + '</a></li>';
+    });
+    elem.innerHTML = options;
+};
+</script>
+
+
+        <link rel="icon" href="/raku-involvement-website/assets/favicon.ico">
+    </head>
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-fixed-top raku-webs" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+     <figure class="navbar-item">
+        <img id="Camelia" class="is-rounded" src="https://avatars.githubusercontent.com/u/58170775">
+        <span class="navbar-tm-logo">tm</span>
+     </figure>
+        <div class="navbar-start navbar-item">
+    <label class="chevronToggle tooltip">
+        <input id="navbar-toc-toggle" type="checkbox" />
+        <span class="checkmark on is-hidden-mobile"><i class="fa fa-chevron-left fa-2x"></i></span>
+        <span class="checkmark off is-hidden-mobile"><i class="fa fa-chevron-right fa-2x"></i></span>
+        <span class="checkmark on is-hidden-tablet"><i class="fa fa-chevron-down fa-2x"></i></span>
+        <span class="checkmark off is-hidden-tablet"><i class="fa fa-chevron-up fa-2x"></i></span>
+        <span class="tooltiptext on">Close Table of contents for this page</span>
+        <span class="tooltiptext off">Open Table of contents for this page</span>
+    </label>
+    </div>
+
+     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+       <span aria-hidden="true"></span>
+       <span aria-hidden="true"></span>
+       <span aria-hidden="true"></span>
+       <span aria-hidden="true"></span>
+     </a>
+     </div>
+    <div id="navMenu" class="navbar-menu">
+    <div class="navbar-start navbar-item is-hidden-touch"></div> <!-- empty item so remainder are centered -->
+    <a id="changeTheme" class="navbar-item">ChangeTheme</a>
+</div>
+
+</nav>
+
+        <nav class="raku-webs panel is-hidden-mobile" id="page-nav">
+  <div class="panel-block">
+    <p class="control has-icons-left">
+      <input class="input" type="text" placeholder="🔍" id="page-nav-search"/>
+      <span class="icon is-left">
+        <i class="fas fa-search" aria-hidden="true"></i>
+      </span>
+    </p>
+  </div>
+  <p class="panel-tabs">
+    <a id="toc-tab">Table of Contents</a>
+    <a id="index-tab">Index</a>
+  </p>
+    <aside id="toc-menu" class="panel-block">
+    <div class="raku-webs toc"><div class="toc-item" style="--level:0;" data-bullet=""><a href="#Mailing_Lists">Mailing Lists</a></div>
+<div class="toc-item" style="--level:0;" data-bullet=""><a href="#Community_Articles">Community Articles</a></div>
+<div class="toc-item" style="--level:0;" data-bullet=""><a href="#Raku®_is_optimised_for_fun!">Raku® is optimised for fun! </a></div>
+<div class="toc-item" style="--level:1;" data-bullet="▹"><a href="#Articles">Articles</a></div>
+</div>
+
+    </aside>
+    <aside id="index-menu" class="panel-block is-hidden">
+    <p>No Index for this page</p>
+    </aside>
+</nav>
+
+<div class="columns">
+    <div id="TOC" class="column is-one-quarter">
+            <div id="siteNavigation">
+        <!-- the following panel appears at the top of the page when form format is small -->
+        <nav class="panel is-hidden-tablet" id="mobile-nav">
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="🔍" id="mobile-nav-search"/>
+              <span class="icon is-left">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </span>
+            </p>
+          </div>
+          <p class="panel-tabs">
+            <a id="mtoc-tab">Table of Contents</a>
+            <a id="mindex-tab">Index</a>
+          </p>
+            <aside id="mtoc-menu" class="panel-block">
+            <div class="raku-webs toc"><div class="toc-item" style="--level:0;" data-bullet=""><a href="#Mailing_Lists">Mailing Lists</a></div>
+<div class="toc-item" style="--level:0;" data-bullet=""><a href="#Community_Articles">Community Articles</a></div>
+<div class="toc-item" style="--level:0;" data-bullet=""><a href="#Raku®_is_optimised_for_fun!">Raku® is optimised for fun! </a></div>
+<div class="toc-item" style="--level:1;" data-bullet="▹"><a href="#Articles">Articles</a></div>
+</div>
+
+            </aside>
+            <aside id="mindex-menu" class="panel-block is-hidden">
+            <p>No Index for this page</p>
+            </aside>
+        </nav>
+    </div>
+
+    </div>
+    <div id="MainText" class="column section container">
+        <section class="section">
+  <div class="container">
+<div id="Community"></div><h1 class="raku-webs title">Community</h1>
+
+<p class="raku-webs subtitle">More ways of Connecting to the Raku Community</p>
+  </div>
+</section>
+
+        <div class="content px-4 ">
+        
+<p>To get involved in the Raku community in general, see the main Community page at <a href="https://raku.org/community/">https://raku.org/community/</a>. If you're keen to be involved and help, then your best bet is to look over the <a href="../troupes#">Troupes</a> page, and find the troupes that best suit your skills. </p>
+
+<p>There are also some general community resources which were not significant enough to put on <a href="https://raku.org/community/">https://raku.org/community/</a> but can still be handy/helpful. </p>
+
+<div class="id-target" id="Mailing Lists"></div><h1 id="Mailing_Lists" class="heading raku-webs-h1 "><a href="#">Mailing Lists</a><a class="raku-webs-anchor" href="#Mailing Lists">§</a></h1>
+
+<p>For the folks who can't use <a href="https://raku.org/community/">#raku</a> or discord, there are several (low traffic) mailing lists <span class="important">(which use the legacy name of Perl 6)</span>. </p>
+<div id="Table" class="rakudoc-table">
+<table class="table is-striped is-bordered">	<thead>
+		<tr><th>List</th><th>Purpose</th><th>Subscribe</th><th>Archive</th></tr>
+	</thead>	<tbody>
+		<tr><td>perl6-users</td><td>User questions</td><td><a href="mailto:perl6-users-subscribe@perl.org#">Subscribe</a></td><td><a href="http://nntp.perl.org/group/perl.perl6.users/">Archive</a></td></tr>
+		<tr><td>perl6-language</td><td>Language/specification</td><td><a href="mailto:perl6-language-subscribe@perl.org#">Subscribe</a></td><td><a href="http://nntp.perl.org/group/perl.perl6.language/">Archive</a></td></tr>
+		<tr><td>perl6-compiler</td><td>Compiler</td><td><a href="mailto:perl6-compiler-subscribe@perl.org#">Subscribe</a></td><td><a href="http://nntp.perl.org/group/perl.perl6.compiler/">Archive</a></td></tr>
+			</tbody>
+</table>
+<div class="table-caption rakudoc">Table</div></div>
+<div class="id-target" id="Community Articles"></div><h1 id="Community_Articles" class="heading raku-webs-h1 "><a href="#">Community Articles</a><a class="raku-webs-anchor" href="#Community Articles">§</a></h1>
+
+<ul class="item-list"><li class="item" data-bullet="•" style ="--level:0;"  ><a href="https://github.com/Raku/CCR/blob/main/Remaster/Zoffix%20Znet/On-Troll-Hugging-Hole-Digging-and-Improving-Open-Source-Communities.md">On Troll Hugging, Hole Digging, and Improving Open Source Communities</a> by Zoffix Znet</li>
+<li class="item" data-bullet="•" style ="--level:0;"  ><a href="https://medium.com/@audrey.tang/lessons-i-ve-learned-32f5d8107e34">Lessons learned from open source communities</a>  by Audrey Tang</li>
+<li class="item" data-bullet="•" style ="--level:0;"  ><a href="https://web.archive.org/web/20250913235721/https://pugs.blogs.com/audrey/2009/08/my-hobby-troll-hugging.html">My hobby: Troll hugging</a> by Audrey Tang</li>
+<li class="item" data-bullet="•" style ="--level:0;"  ><a href="https://effectiviology.com/principle-of-charity/">The Principle of Charity</a> by By Itamar Shatz, PhD. On the Importance of Using Constructive Arguments (<a href="http://www.jstor.org/stable/20123725">original paper</a>)</li>
+</ul>
+
+<div class="id-target" id="Raku® is optimised for fun!"></div><h1 id="Raku®_is_optimised_for_fun!" class="heading raku-webs-h1 "><a href="#">Raku® is optimised for fun!</a><a class="raku-webs-anchor" href="#Raku® is optimised for fun!">§</a></h1>
+
+<p><a href="https://en.wikipedia.org/wiki/Audrey_Tang">Audrey Tang</a> coined the phrase that Raku is <span class="basis">optimized for fun</span>, abbreviated <span class="basis"><a href="http://www.slideshare.net/autang/ofun-optimizing-for-fun">-Ofun</a></span>. </p>
+
+<p id="Para">Raku has a fun-driven community: writing a Raku compiler is fun, developing applications too, and most of all dealing with friendly, intelligent people.</p>
+<h2 id="Articles" class="heading raku-webs-h2 "><a href="#">Articles</a><a class="raku-webs-anchor" href="#Articles">§</a></h2>
+<ul class="item-list"><li class="item" data-bullet="•" style ="--level:0;"  ><a href="http://strangelyconsistent.org/blog/perl-6-is-my-mmorpg">Perl 6 is my MMORPG</a>  by Carl Mäsak</li>
+<li class="item" data-bullet="•" style ="--level:0;"  ><a href="https://wayland.github.io/blog/raku/Ofun/Raku-RPG-and-Guild.xml">Raku: Both RPG and Guild</a>  by Tim Nelson</li>
+<li class="item" data-bullet="•" style ="--level:0;"  ><a href="https://perlgeek.de/blog-en/perl-6/optimized-for-fun.html">Optimized for fun</a> (IRC conversations)</li>
+</ul>
+
+
+        </div>
+        <div class="content px-4">
+        
+        </div>
+        <div class="content px-4">
+        
+        </div>
+    </div>
+</div>
+
+        <footer class="footer main-footer">
+    <div class="container px-4">
+        <nav class="level">
+            <div class="level-item">
+                Rendered from&nbsp;<span class="footer-field">./community/index</span>
+            </div>
+            <div class="level-item">
+                Rendered at 00:48 UTC on 2026-07-17
+            </div>
+            <div class="level-item">
+                Source last modified&nbsp;at 11:50 UTC on 2026-07-16
+            </div>
+        </nav>
+    </div>
+    
+</footer>
+
+    </body>
+</html>
